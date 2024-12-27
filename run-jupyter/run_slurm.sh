@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Get parent directory and create logs directoy if not exist
+scriptDir=$(dirname -- "$(readlink -f -- "$BASH_SOURCE")")
+mkdir -p $scriptDir/logs
+
 # Function to prompt user for input with a default value
 prompt() {
   local prompt_text=$1
@@ -61,6 +65,7 @@ sed -i "s/<JOB_NAME>/$job_name/" $slurm_script
 sed -i "s/<MEMORY>/$memory/" $slurm_script
 sed -i "s/<CPUS>/$cpus/" $slurm_script
 sed -i "s/<TIME>/$time/" $slurm_script
+sed -i "s#<LOGS>#${scriptDir}/logs#" $slurm_script
 sed -i "s|<GPU_SETTINGS>|$gpu_settings|" $slurm_script
 sed -i "s|<GPU_CONSTRAINT>|$gpu_constraint|" $slurm_script
 
@@ -85,7 +90,7 @@ if [[ -z $job_id ]]; then
 fi
 
 # Wait for the log file to be created
-log_file="jupyter-${job_id}.log"
+log_file="$scriptDir/logs/jupyter-${job_id}.log"
 echo "Waiting for the log file: $log_file"
 
 # Loop until the log file exists and contains the SSH line

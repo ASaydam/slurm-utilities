@@ -1,14 +1,11 @@
 #!/bin/bash
-# 
+#
 # ASaydam (c) 2024
-# 
+#
 # You should only work under the /scratch/users/<username> directory.
 #
 # Jupyter job submission script
 #
-# -= Resources =-
-#
-
 #SBATCH --job-name=<JOB_NAME>
 #SBATCH --nodes 1
 #SBATCH --ntasks-per-node=<CPUS>
@@ -17,7 +14,7 @@
 #SBATCH --account=ai
 #SBATCH --qos=ai
 #SBATCH --time=<TIME>
-#SBATCH --output=jupyter-%J.log
+#SBATCH --output=<LOGS>/jupyter-%J.log
 ##SBATCH --mail-type=ALL
 ##SBATCH --mail-user=alpersaydam@live.com
 <GPU_SETTINGS>
@@ -81,5 +78,5 @@ Jupyter server information is below
 "
 # DON'T USE ADDRESS BELOW. 
 # DO USE TOKEN BELOW
-jupyter-notebook --no-browser --port=${port} --ip="*"
+jupyter-notebook --no-browser --port=${port} --ip="*" --notebook-dir=$HOME/hpc_run/
 
