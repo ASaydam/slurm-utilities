@@ -59,8 +59,8 @@ if [[ $use_gpu == "yes" ]]; then
 fi
 
 # Generate the SLURM script from the template
-slurm_script="job_script.slurm"
-cp $HOME/hpc_run/functions/run-jupyter/template.slurm $slurm_script
+slurm_script=$scriptDir/job_script.slurm
+cp $scriptDir/template.slurm $slurm_script
 sed -i "s/<JOB_NAME>/$job_name/" $slurm_script
 sed -i "s/<MEMORY>/$memory/" $slurm_script
 sed -i "s/<CPUS>/$cpus/" $slurm_script

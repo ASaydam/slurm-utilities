@@ -6,7 +6,7 @@
 #
 # Jupyter job submission script
 #
-#SBATCH --job-name=default_job
+#SBATCH --job-name=test
 #SBATCH --nodes 1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=4G
