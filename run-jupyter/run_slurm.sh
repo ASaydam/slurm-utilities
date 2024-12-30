@@ -17,10 +17,15 @@ set timeout 60
 
 # Collect user input
 job_name=$(prompt "Enter the job name" "default_job")
-memory=$(prompt "Enter the memory required (e.g., 4G)" "4G")
+memory=$(prompt "Enter the memory required (e.g., "4G" or just "4")" "4G")
 cpus=$(prompt "Enter the number of CPUs required" "1")
 time=$(prompt "Enter the runtime for this job" "1-00:00:00")
 use_gpu=$(prompt "Do you want to use a GPU? (yes/no)" "no")
+
+# Ensure the memory input ends with G
+if [[ ! $memory =~ G$ ]]; then
+  memory="${memory}G"
+fi
 
 # GPU settings based on user input
 gpu_constraint=""

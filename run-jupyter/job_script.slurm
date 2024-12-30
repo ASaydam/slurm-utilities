@@ -6,10 +6,10 @@
 #
 # Jupyter job submission script
 #
-#SBATCH --job-name=test
+#SBATCH --job-name=default_job
 #SBATCH --nodes 1
-#SBATCH --ntasks-per-node=1
-#SBATCH --mem=4G
+#SBATCH --ntasks-per-node=2
+#SBATCH --mem=100G
 #SBATCH --partition=ai
 #SBATCH --account=ai
 #SBATCH --qos=ai
