@@ -77,6 +77,7 @@ This script helps you manage and cancel your running jobs on a Slurm workload ma
 ```bash
 git clone https://github.com/your-repository/stop-slurm-jobs.git
 cd stop-slurm-jobs
+```
 
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
