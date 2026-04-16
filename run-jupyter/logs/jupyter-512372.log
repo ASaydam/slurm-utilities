@@ -1,0 +1,1716 @@
+=======================
+Loading Anaconda Module...
+Lmod has detected the following error: The following module(s) are unknown:
+"conda/latest"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "conda/latest"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+no change     /opt/ohpc/pub/compiler/conda3/latest/condabin/conda
+no change     /opt/ohpc/pub/compiler/conda3/latest/bin/conda
+no change     /opt/ohpc/pub/compiler/conda3/latest/bin/conda-env
+no change     /opt/ohpc/pub/compiler/conda3/latest/bin/activate
+no change     /opt/ohpc/pub/compiler/conda3/latest/bin/deactivate
+no change     /opt/ohpc/pub/compiler/conda3/latest/etc/profile.d/conda.sh
+no change     /opt/ohpc/pub/compiler/conda3/latest/etc/fish/conf.d/conda.fish
+no change     /opt/ohpc/pub/compiler/conda3/latest/shell/condabin/Conda.psm1
+no change     /opt/ohpc/pub/compiler/conda3/latest/shell/condabin/conda-hook.ps1
+no change     /opt/ohpc/pub/compiler/conda3/latest/lib/python3.13/site-packages/xontrib/conda.xsh
+no change     /opt/ohpc/pub/compiler/conda3/latest/etc/profile.d/conda.csh
+no change     /home/asaydam21/.bashrc
+No action taken.
+=======================
+
+============================== ENVIRONMENT VARIABLES ===============================
+HYDRA_LAUNCHER_EXTRA_ARGS=--external-launcher
+CONDA_SHLVL=1
+LD_LIBRARY_PATH=/opt/ohpc/pub/compiler/conda3/latest/lib:/opt/ohpc/pub/apps/git/2.9.5/lib64
+LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+CONDA_EXE=/opt/ohpc/pub/compiler/conda3/latest/bin/conda
+SLURM_NODEID=0
+SLURM_TASK_PID=3169199
+__LMOD_REF_COUNT_PATH=/opt/ohpc/pub/compiler/conda3/latest/bin:1;/home/asaydam21/bin:2;/opt/ohpc/pub/apps/git/2.9.5/bin:1;/opt/ohpc/pub/apps/git/2.9.5/libexec/git-core:1;/opt/ohpc/pub/apps/tmux/3.5/bin:1;/opt/ohpc/pub/compiler/conda/latest/bin:1;/home/asaydam21/.local/bin:1;/opt/ohpc/pub/compiler/conda3/latest/condabin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1
+_ModuleTable002_=IiwKbG9hZE9yZGVyID0gMiwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDAsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJnaXQiLAp3ViA9ICIwMDAwMDAwMDIuMDAwMDAwMDA5LjAwMDAwMDAwNS4qemZpbmFsIiwKfSwKdG11eCA9IHsKZm4gPSAiL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlcy90bXV4LzMuNSIsCmZ1bGxOYW1lID0gInRtdXgvMy41IiwKbG9hZE9yZGVyID0gMSwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDAsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJ0bXV4LzMuNSIsCndWID0gIjAwMDAwMDAwMy4wMDAwMDAwMDUuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXMiLAp9LApzeXN0ZW1C
+SSH_CONNECTION=172.24.4.182 53386 192.168.0.50 22
+INCLUDE=/opt/ohpc/pub/compiler/conda3/latest/include:/opt/ohpc/pub/apps/git/2.9.5/include
+SLURM_PRIO_PROCESS=0
+I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-launcher
+LANG=en_US.UTF-8
+SLURM_SUBMIT_DIR=/home/asaydam21/slurm-utilities/run-jupyter
+HISTCONTROL=ignoredups
+OMPI_MCA_plm_slurm_args=--external-launcher
+HOSTNAME=ai01
+OLDPWD=/home/asaydam21/slurm-utilities
+ENVIRONMENT=BATCH
+FPATH=/opt/ohpc/admin/lmod/lmod/init/ksh_funcs
+CONDA_PREFIX=/home/asaydam21/.conda/envs/py311
+SLURM_PROCID=0
+SLURM_JOB_GID=1810810000
+__LMOD_REF_COUNT_INCLUDE=/opt/ohpc/pub/compiler/conda3/latest/include:1;/opt/ohpc/pub/apps/git/2.9.5/include:1
+I_MPI_HYDRA_BOOTSTRAP=slurm
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/ohpc/pub/compiler/conda3/latest/lib:1;/opt/ohpc/pub/apps/git/2.9.5/lib64:1
+SLURMD_NODENAME=ai01
+SLURM_JOB_END_TIME=1765278611
+_CONDA_EXE=/opt/ohpc/pub/compiler/conda3/latest/bin/conda
+SLURM_TASKS_PER_NODE=2
+__LMOD_REF_COUNT_PYTHONPATH=/opt/ohpc/pub/compiler/conda3/latest/lib:1
+PRTE_MCA_plm_slurm_args=--external-launcher
+_CE_M=
+which_declare=declare -f
+XDG_SESSION_ID=4014
+SLURM_NNODES=1
+USER=asaydam21
+SLURM_JOB_START_TIME=1765192211
+SLURM_NTASKS_PER_NODE=2
+__LMOD_REF_COUNT_MODULEPATH=/opt/ohpc/pub/modulefiles:1
+PWD=/home/asaydam21/slurm-utilities/run-jupyter
+SLURM_JOB_NODELIST=ai01
+HOME=/home/asaydam21
+SLURM_CLUSTER_NAME=valar
+CONDA_PYTHON_EXE=/opt/ohpc/pub/compiler/conda3/latest/bin/python
+LMOD_COLORIZE=no
+SLURM_NODELIST=ai01
+SSH_CLIENT=172.24.4.182 53386 22
+LMOD_VERSION=8.7.53
+SLURM_NTASKS=2
+LMOD_SETTARG_CMD=:
+KRB5CCNAME=KCM:
+SLURM_JOB_CPUS_PER_NODE=2
+BASH_ENV=/opt/ohpc/admin/lmod/lmod/init/bash
+SLURM_TOPOLOGY_ADDR=ai01
+_CE_CONDA=
+SLURM_JOB_NAME=default_job
+TMPDIR=/scratch/tmp
+SLURM_JOBID=512372
+LIBPATH=/opt/ohpc/pub/compiler/conda3/latest/lib
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0ge30sCm1UID0gewpjb25kYTMgPSB7CmZuID0gIi9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXMvY29uZGEzL2xhdGVzdC5sdWEiLApmdWxsTmFtZSA9ICJjb25kYTMvbGF0ZXN0IiwKbG9hZE9yZGVyID0gMywKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDAsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJjb25kYTMiLAp3ViA9ICIqbGF0ZXN0Lip6ZmluYWwiLAp9LApnaXQgPSB7CmZuID0gIi9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXMvZ2l0LzIuOS41IiwKZnVsbE5hbWUgPSAiZ2l0LzIuOS41
+SLURM_CONF=/etc/slurm/slurm.conf
+LOADEDMODULES=tmux/3.5:git/2.9.5:conda3/latest
+__LMOD_REF_COUNT_MANPATH=/opt/ohpc/pub/compiler/conda3/latest/share/man:1;/opt/ohpc/pub/apps/git/2.9.5/share/man:1;/opt/ohpc/pub/apps/tmux/3.5/share/man:1
+_ModuleTable003_=YXNlTVBBVEggPSAiL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlcyIsCn0K
+SLURM_JOB_QOS=ai
+LMOD_ROOT=/opt/ohpc/admin/lmod
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+CONDA_PROMPT_MODIFIER=(py311) 
+SSH_TTY=/dev/pts/46
+MAIL=/var/spool/mail/asaydam21
+SLURM_CPUS_ON_NODE=2
+_CONDA_ROOT=/opt/ohpc/pub/compiler/conda3/latest
+SLURM_JOB_NUM_NODES=1
+SLURM_MEM_PER_NODE=32768
+TERM=xterm-256color
+SHELL=/bin/bash
+SLURM_JOB_UID=1111956
+_ModuleTable_Sz_=3
+SLURM_JOB_PARTITION=ai
+SLURM_JOB_USER=asaydam21
+SLURM_NPROCS=2
+SHLVL=3
+SLURM_SUBMIT_HOST=login01.kuvalar.ku.edu.tr
+PYTHONPATH=/opt/ohpc/pub/compiler/conda3/latest/lib
+SLURM_JOB_ACCOUNT=ai
+__LMOD_REF_COUNT_LIBPATH=/opt/ohpc/pub/compiler/conda3/latest/lib:1
+MANPATH=/opt/ohpc/pub/compiler/conda3/latest/share/man:/opt/ohpc/pub/apps/git/2.9.5/share/man:/opt/ohpc/pub/apps/tmux/3.5/share/man
+HYDRA_BOOTSTRAP=slurm
+LMOD_PREPEND_BLOCK=normal
+MODULEPATH=/opt/ohpc/pub/modulefiles
+SLURM_GTIDS=0
+LOGNAME=asaydam21
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1111956/bus
+XDG_RUNTIME_DIR=/run/user/1111956
+PATH=/home/asaydam21/.conda/envs/py311/bin:/opt/ohpc/pub/compiler/conda3/latest/bin:/home/asaydam21/bin:/opt/ohpc/pub/apps/git/2.9.5/bin:/opt/ohpc/pub/apps/git/2.9.5/libexec/git-core:/opt/ohpc/pub/apps/tmux/3.5/bin:/opt/ohpc/pub/compiler/conda/latest/bin:/home/asaydam21/.local/bin:/opt/ohpc/pub/compiler/conda3/latest/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+SLURM_JOB_ID=512372
+_LMFILES_=/opt/ohpc/pub/modulefiles/tmux/3.5:/opt/ohpc/pub/modulefiles/git/2.9.5:/opt/ohpc/pub/modulefiles/conda3/latest.lua
+DEBUGINFOD_URLS=https://debuginfod.centos.org/ 
+MODULESHOME=/opt/ohpc/admin/lmod/lmod
+LMOD_SETTARG_FULL_SUPPORT=no
+CONDA_DEFAULT_ENV=py311
+HISTSIZE=1000
+LMOD_PKG=/opt/ohpc/admin/lmod/lmod
+SLURM_OOM_KILL_STEP=0
+LMOD_CMD=/opt/ohpc/admin/lmod/lmod/libexec/lmod
+SLURM_LOCALID=0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_FULL_SETTARG_SUPPORT=no
+LMOD_DIR=/opt/ohpc/admin/lmod/lmod/libexec
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+_=/usr/bin/env
+====================================================================================
+
+
+
+
+====================================================================================
+
+ Here is the MobaXterm info:
+
+Forwarded port:same as remote port
+Remote server: ai01
+Remote port: 6465
+SSH server: 172.20.240.205
+SSH login: asaydam21
+SSH port: 22
+
+====================================================================================
+# MacOS or linux terminal command to create your ssh tunnel on your local machine:
+
+ssh -N -L 6465:ai01:6465 asaydam21@172.20.240.205
+====================================================================================
+
+Jupyter server information is below
+
+[I 2025-12-08 14:10:18.514 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-12-08 14:10:18.523 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-12-08 14:10:18.530 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-12-08 14:10:19.585 ServerApp] notebook_shim | extension was successfully linked.
+[W 2025-12-08 14:10:19.655 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2025-12-08 14:10:19.655 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-12-08 14:10:19.680 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-12-08 14:10:19.681 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-12-08 14:10:19.692 LabApp] JupyterLab extension loaded from /home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyterlab
+[I 2025-12-08 14:10:19.692 LabApp] JupyterLab application directory is /home/asaydam21/.conda/envs/py311/share/jupyter/lab
+[I 2025-12-08 14:10:19.695 LabApp] Extension Manager is 'pypi'.
+[I 2025-12-08 14:10:19.799 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-12-08 14:10:19.800 ServerApp] Serving notebooks from local directory: /home/asaydam21
+[I 2025-12-08 14:10:19.800 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2025-12-08 14:10:19.800 ServerApp] http://localhost:6465/lab?token=52d3e4aa0e5f99410ca51508852c6a73cd6788fd0d2f60e9
+[I 2025-12-08 14:10:19.801 ServerApp]     http://127.0.0.1:6465/lab?token=52d3e4aa0e5f99410ca51508852c6a73cd6788fd0d2f60e9
+[I 2025-12-08 14:10:19.801 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-12-08 14:10:19.810 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/asaydam21/.local/share/jupyter/runtime/jpserver-3169417-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:6465/lab?token=52d3e4aa0e5f99410ca51508852c6a73cd6788fd0d2f60e9
+        http://127.0.0.1:6465/lab?token=52d3e4aa0e5f99410ca51508852c6a73cd6788fd0d2f60e9
+[I 2025-12-08 14:10:20.498 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-12-08 14:10:55.207 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.50) 0.39ms
+[I 2025-12-08 14:11:29.329 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.50) 0.36ms
+[I 2025-12-08 14:12:04.009 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.50) 0.36ms
+[I 2025-12-08 14:12:33.802 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.50) 0.22ms
+[I 2025-12-08 14:13:02.810 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.50) 0.30ms
+[I 2025-12-08 14:13:03.645 LabApp] Build is up to date
+[W 2025-12-08 14:13:05.090 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/models/UNetExAdd.py?content=0&hash=0&1765192383071 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 77.74ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.090 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/models/UNetExAdd.py?content=0&hash=0&1765192383071 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/models/UNetExAdd.py
+[W 2025-12-08 14:13:05.092 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/models?content=0&hash=0&1765192383070 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 79.72ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.092 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/models?content=0&hash=0&1765192383070 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/models
+[W 2025-12-08 14:13:05.147 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_flowbench.sh?content=0&hash=0&1765192383074 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.40ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.148 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_flowbench.sh?content=0&hash=0&1765192383074 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_flowbench.sh
+[W 2025-12-08 14:13:05.267 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/functions.py?content=0&hash=0&1765192383074 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.26ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.267 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/functions.py?content=0&hash=0&1765192383074 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/functions.py
+[W 2025-12-08 14:13:05.272 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/functions.py?content=0&hash=0&1765192383075 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.17ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.272 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/functions.py?content=0&hash=0&1765192383075 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/functions.py
+[W 2025-12-08 14:13:05.282 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/datasets/convert-flowbench-to-hdf5.ipynb?content=0&hash=0&1765192383075 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.31ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.282 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/datasets/convert-flowbench-to-hdf5.ipynb?content=0&hash=0&1765192383075 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/datasets/convert-flowbench-to-hdf5.ipynb
+[W 2025-12-08 14:13:05.284 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_test_flowbench.sh?content=0&hash=0&1765192383075 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.38ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.285 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_test_flowbench.sh?content=0&hash=0&1765192383075 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_test_flowbench.sh
+[W 2025-12-08 14:13:05.287 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/train_functions_transient.py?content=0&hash=0&1765192383076 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.36ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.287 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/train_functions_transient.py?content=0&hash=0&1765192383076 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/train_functions_transient.py
+[W 2025-12-08 14:13:05.315 ServerApp] 404 GET /api/contents/datasets/convert-flowbench-to-hdf5.ipynb?content=0&hash=0&1765192383076 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.60ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.315 ServerApp] 404 GET /api/contents/datasets/convert-flowbench-to-hdf5.ipynb?content=0&hash=0&1765192383076 (192.168.0.50): No such file or directory: datasets/convert-flowbench-to-hdf5.ipynb
+[W 2025-12-08 14:13:05.379 ServerApp] 404 GET /api/contents/transient-flow-prediction/scratchpad-train-flowbench.ipynb?content=0&hash=0&1765192383077 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.27ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.380 ServerApp] 404 GET /api/contents/transient-flow-prediction/scratchpad-train-flowbench.ipynb?content=0&hash=0&1765192383077 (192.168.0.50): No such file or directory: transient-flow-prediction/scratchpad-train-flowbench.ipynb
+[W 2025-12-08 14:13:05.381 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/main_float16_h5set.py?content=0&hash=0&1765192383077 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.28ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.382 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/main_float16_h5set.py?content=0&hash=0&1765192383077 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/main_float16_h5set.py
+[W 2025-12-08 14:13:05.383 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_experiment_6ch_A3_flowbench-small.sh?content=0&hash=0&1765192383077 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 2.92ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.384 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_experiment_6ch_A3_flowbench-small.sh?content=0&hash=0&1765192383077 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_experiment_6ch_A3_flowbench-small.sh
+[W 2025-12-08 14:13:05.388 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py?content=0&hash=0&1765192383078 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.94ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.389 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py?content=0&hash=0&1765192383078 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[W 2025-12-08 14:13:05.392 ServerApp] 404 GET /api/contents/transient-flow-prediction/visulize_flowbench_data.ipynb?content=0&hash=0&1765192383078 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.39ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.392 ServerApp] 404 GET /api/contents/transient-flow-prediction/visulize_flowbench_data.ipynb?content=0&hash=0&1765192383078 (192.168.0.50): No such file or directory: transient-flow-prediction/visulize_flowbench_data.ipynb
+[W 2025-12-08 14:13:05.443 ServerApp] 404 GET /api/contents/datasets/dataset_class.ipynb?content=0&hash=0&1765192383079 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.29ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.444 ServerApp] 404 GET /api/contents/datasets/dataset_class.ipynb?content=0&hash=0&1765192383079 (192.168.0.50): No such file or directory: datasets/dataset_class.ipynb
+[W 2025-12-08 14:13:05.516 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_flowbench.sh?content=0&hash=0&1765192383079 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 1.20ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.516 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_flowbench.sh?content=0&hash=0&1765192383079 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_flowbench.sh
+[W 2025-12-08 14:13:05.519 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/models/UNetExAdd.py?content=0&hash=0&1765192383080 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.50) 2.05ms referer=http://127.0.0.1:6465/lab
+[W 2025-12-08 14:13:05.519 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/models/UNetExAdd.py?content=0&hash=0&1765192383080 (192.168.0.50): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/models/UNetExAdd.py
+[I 2025-12-08 14:13:32.342 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.50) 0.31ms
+[I 2025-12-08 14:14:01.236 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.50) 0.34ms
+[I 2025-12-08 14:14:29.660 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.50) 0.29ms
+[I 2025-12-08 14:14:58.610 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.22ms
+[I 2025-12-08 14:15:27.324 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.22ms
+[W 2025-12-08 14:15:41.435 ServerApp] Notebook ood-objects/scripts/paraview_export_cases-v2.ipynb is not trusted
+[I 2025-12-08 14:15:58.472 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.34ms
+[I 2025-12-08 14:16:35.437 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:17:05.817 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.21ms
+[I 2025-12-08 14:17:15.964 ServerApp] Kernel started: b4f8f537-d47d-4b55-a43e-14e0e9388293
+[I 2025-12-08 14:17:20.895 ServerApp] Connecting to kernel b4f8f537-d47d-4b55-a43e-14e0e9388293.
+[I 2025-12-08 14:17:25.235 ServerApp] Starting buffering for b4f8f537-d47d-4b55-a43e-14e0e9388293:a4b37e71-dec8-4b68-9a00-5c7ce3b14638
+[I 2025-12-08 14:17:25.237 ServerApp] Connecting to kernel b4f8f537-d47d-4b55-a43e-14e0e9388293.
+[I 2025-12-08 14:17:34.695 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.35ms
+[I 2025-12-08 14:18:03.484 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:18:32.074 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:19:03.559 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 3.28ms
+[I 2025-12-08 14:19:35.316 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 14:19:45.849 ServerApp] Saving file at /ood-objects/scripts/paraview_export_cases-v2.ipynb
+[W 2025-12-08 14:19:45.850 ServerApp] Notebook ood-objects/scripts/paraview_export_cases-v2.ipynb is not trusted
+[I 2025-12-08 14:20:04.235 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.22ms
+[I 2025-12-08 14:20:33.074 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.24ms
+[I 2025-12-08 14:21:01.723 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.23ms
+[I 2025-12-08 14:21:30.264 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:21:58.792 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 14:22:27.231 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:22:55.691 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:23:24.112 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:23:52.632 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 14:24:21.103 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:24:49.631 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:25:18.167 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:25:46.708 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:26:15.491 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 14:26:29.136 ServerApp] Kernel interrupted: b4f8f537-d47d-4b55-a43e-14e0e9388293
+[I 2025-12-08 14:26:30.192 ServerApp] Kernel interrupted: b4f8f537-d47d-4b55-a43e-14e0e9388293
+[I 2025-12-08 14:26:43.984 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:27:12.539 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[W 2025-12-08 14:27:18.274 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/spatial/__init__.py?content=0&hash=0&1765193236360 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.51) 2.58ms referer=http://127.0.0.1:6465/lab/tree/ood-objects/scripts/paraview_export_cases-v2.ipynb
+[I 2025-12-08 14:27:18.276 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/scipy/spatial/__init__.py', via 404 Error
+[E 2025-12-08 14:27:18.276 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/spatial/__init__.py?content=0&hash=0&1765193236360 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6465', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/spatial/__init__.py?content=0&hash=0&1765193236360', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/scipy/spatial/__init__.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-08 14:27:18.332 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/spatial/_kdtree.py?content=0&hash=0&1765193236437 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.51) 0.80ms referer=http://127.0.0.1:6465/lab/tree/ood-objects/scripts/paraview_export_cases-v2.ipynb
+[I 2025-12-08 14:27:18.333 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/scipy/spatial/_kdtree.py', via 404 Error
+[E 2025-12-08 14:27:18.333 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/spatial/_kdtree.py?content=0&hash=0&1765193236437 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6465', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/spatial/_kdtree.py?content=0&hash=0&1765193236437', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/scipy/spatial/_kdtree.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-08 14:27:18.475 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/__init__.py?content=0&hash=0&1765193236574 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.51) 0.96ms referer=http://127.0.0.1:6465/lab/tree/ood-objects/scripts/paraview_export_cases-v2.ipynb
+[I 2025-12-08 14:27:18.477 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/__init__.py', via 404 Error
+[E 2025-12-08 14:27:18.477 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/__init__.py?content=0&hash=0&1765193236574 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6465', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/__init__.py?content=0&hash=0&1765193236574', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/__init__.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-08 14:27:18.638 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/_base.py?content=0&hash=0&1765193236743 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.51) 0.74ms referer=http://127.0.0.1:6465/lab/tree/ood-objects/scripts/paraview_export_cases-v2.ipynb
+[I 2025-12-08 14:27:18.640 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/_base.py', via 404 Error
+[E 2025-12-08 14:27:18.640 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/_base.py?content=0&hash=0&1765193236743 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6465', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/_base.py?content=0&hash=0&1765193236743', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/_base.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-08 14:27:18.694 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/_sputils.py?content=0&hash=0&1765193236802 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.51) 0.77ms referer=http://127.0.0.1:6465/lab/tree/ood-objects/scripts/paraview_export_cases-v2.ipynb
+[I 2025-12-08 14:27:18.695 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/_sputils.py', via 404 Error
+[E 2025-12-08 14:27:18.696 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/_sputils.py?content=0&hash=0&1765193236802 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6465', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/_sputils.py?content=0&hash=0&1765193236802', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/scipy/sparse/_sputils.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-08 14:27:18.753 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/_util.py?content=0&hash=0&1765193236857 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.51) 0.88ms referer=http://127.0.0.1:6465/lab/tree/ood-objects/scripts/paraview_export_cases-v2.ipynb
+[I 2025-12-08 14:27:18.754 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/_util.py', via 404 Error
+[E 2025-12-08 14:27:18.754 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/_util.py?content=0&hash=0&1765193236857 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6465', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/_util.py?content=0&hash=0&1765193236857', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/_util.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-08 14:27:18.894 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/_array_api.py?content=0&hash=0&1765193236999 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.51) 0.76ms referer=http://127.0.0.1:6465/lab/tree/ood-objects/scripts/paraview_export_cases-v2.ipynb
+[I 2025-12-08 14:27:18.896 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/_array_api.py', via 404 Error
+[E 2025-12-08 14:27:18.896 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/_array_api.py?content=0&hash=0&1765193236999 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6465', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/_array_api.py?content=0&hash=0&1765193236999', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/_array_api.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-08 14:27:18.973 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/array_api_compat/numpy/__init__.py?content=0&hash=0&1765193237073 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.51) 1.10ms referer=http://127.0.0.1:6465/lab/tree/ood-objects/scripts/paraview_export_cases-v2.ipynb
+[I 2025-12-08 14:27:18.975 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/array_api_compat/numpy/__init__.py', via 404 Error
+[E 2025-12-08 14:27:18.975 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/array_api_compat/numpy/__init__.py?content=0&hash=0&1765193237073 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6465', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/array_api_compat/numpy/__init__.py?content=0&hash=0&1765193237073', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/scipy/_lib/array_api_compat/numpy/__init__.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-08 14:27:19.052 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/testing/__init__.py?content=0&hash=0&1765193237143 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.51) 1.06ms referer=http://127.0.0.1:6465/lab/tree/ood-objects/scripts/paraview_export_cases-v2.ipynb
+[I 2025-12-08 14:27:19.054 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/numpy/testing/__init__.py', via 404 Error
+[E 2025-12-08 14:27:19.054 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/testing/__init__.py?content=0&hash=0&1765193237143 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6465', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/testing/__init__.py?content=0&hash=0&1765193237143', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/numpy/testing/__init__.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-08 14:27:19.115 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/testing/_private/utils.py?content=0&hash=0&1765193237215 (69b8ce7c06ea42e1b07e68cc7fe2bd9c@192.168.0.51) 0.94ms referer=http://127.0.0.1:6465/lab/tree/ood-objects/scripts/paraview_export_cases-v2.ipynb
+[I 2025-12-08 14:27:19.117 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/numpy/testing/_private/utils.py', via 404 Error
+[E 2025-12-08 14:27:19.117 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/testing/_private/utils.py?content=0&hash=0&1765193237215 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6465', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/testing/_private/utils.py?content=0&hash=0&1765193237215', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/numpy/testing/_private/utils.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-12-08 14:27:34.581 ServerApp] Saving file at /ood-objects/scripts/paraview_export_cases-v2.ipynb
+[W 2025-12-08 14:27:34.582 ServerApp] Notebook ood-objects/scripts/paraview_export_cases-v2.ipynb is not trusted
+[I 2025-12-08 14:27:41.093 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:28:09.663 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:28:38.192 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.19ms
+[I 2025-12-08 14:29:06.663 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:29:35.203 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.19ms
+[I 2025-12-08 14:30:03.701 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:30:32.203 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:31:00.736 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 14:31:13.855 ServerApp] Kernel restarted: b4f8f537-d47d-4b55-a43e-14e0e9388293
+[I 2025-12-08 14:31:13.932 ServerApp] Starting buffering for b4f8f537-d47d-4b55-a43e-14e0e9388293:1f02d867-0c32-42d5-b6f8-89a5e30d01bf
+[I 2025-12-08 14:31:14.109 ServerApp] Connecting to kernel b4f8f537-d47d-4b55-a43e-14e0e9388293.
+[I 2025-12-08 14:31:14.110 ServerApp] Restoring connection for b4f8f537-d47d-4b55-a43e-14e0e9388293:1f02d867-0c32-42d5-b6f8-89a5e30d01bf
+[I 2025-12-08 14:31:29.249 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 14:31:35.527 ServerApp] Saving file at /ood-objects/scripts/paraview_export_cases-v2.ipynb
+[W 2025-12-08 14:31:35.528 ServerApp] Notebook ood-objects/scripts/paraview_export_cases-v2.ipynb is not trusted
+[I 2025-12-08 14:31:57.874 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:32:26.594 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 14:32:55.261 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:33:23.945 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:33:39.554 ServerApp] Saving file at /ood-objects/scripts/paraview_export_cases-v2.ipynb
+[W 2025-12-08 14:33:39.555 ServerApp] Notebook ood-objects/scripts/paraview_export_cases-v2.ipynb is not trusted
+[I 2025-12-08 14:33:52.456 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:34:20.996 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:34:49.618 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.19ms
+[I 2025-12-08 14:35:09.283 ServerApp] Saving file at /ood-objects/scripts/paraview_export_cases-v2.ipynb
+[W 2025-12-08 14:35:09.284 ServerApp] Notebook ood-objects/scripts/paraview_export_cases-v2.ipynb is not trusted
+[I 2025-12-08 14:35:18.358 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:35:46.994 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.21ms
+[I 2025-12-08 14:36:15.541 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:36:44.018 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.21ms
+[I 2025-12-08 14:37:12.602 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 14:37:41.101 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:38:09.599 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:38:38.107 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:39:06.594 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:39:35.092 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:40:03.645 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.21ms
+[I 2025-12-08 14:40:32.119 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:41:00.636 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:41:24.540 ServerApp] Saving file at /ood-objects/scripts/paraview_export_cases-v2.ipynb
+[W 2025-12-08 14:41:24.541 ServerApp] Notebook ood-objects/scripts/paraview_export_cases-v2.ipynb is not trusted
+[I 2025-12-08 14:41:29.339 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.20ms
+[I 2025-12-08 14:41:58.047 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 14:42:26.664 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.19ms
+[I 2025-12-08 14:42:55.312 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 14:43:23.906 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:43:53.055 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.34ms
+[I 2025-12-08 14:44:22.080 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 14:44:50.873 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:45:19.572 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:45:48.656 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 14:46:17.218 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 14:46:45.856 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:47:15.386 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 14:47:43.957 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:48:12.549 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:48:41.131 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:49:09.765 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:49:38.392 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 14:50:06.856 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 14:50:35.428 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 14:51:03.944 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:51:32.484 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 14:52:00.962 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:52:30.367 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 14:52:59.165 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:53:28.064 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 14:53:56.784 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:54:25.280 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 14:54:53.651 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:55:22.125 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.33ms
+[I 2025-12-08 14:55:50.930 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 14:56:19.892 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 14:56:49.142 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:57:19.065 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 14:57:47.713 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:58:16.207 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 14:58:44.900 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 14:59:14.060 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 14:59:42.962 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:00:11.610 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:00:40.283 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:01:08.966 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:01:37.609 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 15:02:06.252 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:02:34.913 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:03:03.571 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:03:32.298 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:04:00.933 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:04:29.578 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:04:58.274 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:05:26.924 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:05:55.550 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:06:24.331 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:06:53.274 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:07:22.020 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:07:50.734 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:08:19.445 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:08:48.123 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 15:09:16.749 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 15:09:45.405 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:10:14.153 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 15:10:42.891 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:11:11.749 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:11:40.432 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:12:09.093 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:12:38.042 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:13:07.043 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:13:35.704 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:14:04.326 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:14:33.161 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 15:15:01.954 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:15:30.623 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 15:16:01.203 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:16:30.047 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:16:58.689 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:17:27.300 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:17:55.940 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:18:24.560 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:18:53.210 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:19:21.862 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:19:50.523 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:20:19.154 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:20:47.798 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:21:16.978 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:21:46.179 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:22:16.252 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:22:45.002 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:23:13.814 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:23:42.725 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:24:11.425 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:24:40.355 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 15:25:09.237 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 15:25:37.885 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:26:07.258 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 15:26:36.356 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:27:09.093 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:27:38.646 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:28:07.805 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:28:37.116 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:29:06.103 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:29:34.774 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:30:03.420 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:30:32.072 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:31:00.691 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:31:31.323 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:32:00.192 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:32:28.846 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 15:32:57.517 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:33:32.199 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:33:59.720 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:34:28.382 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:34:57.044 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:35:25.690 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:35:54.370 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:36:23.043 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:36:52.448 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 15:37:21.433 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:37:50.652 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 15:38:19.612 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:38:48.242 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:39:16.922 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:39:45.558 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 15:40:14.263 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:40:42.922 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:41:11.660 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:41:40.322 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:42:09.875 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:42:39.058 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:43:07.879 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:43:36.570 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:44:05.221 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:44:33.892 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:45:02.550 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 15:45:31.201 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:45:59.873 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:46:28.541 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:46:57.202 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 15:47:25.914 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:47:54.639 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:48:23.289 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:48:52.296 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:49:21.321 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:49:50.197 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:50:18.871 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:50:47.489 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 15:51:16.142 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:51:44.841 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:52:13.491 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:52:42.110 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:53:10.770 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:53:39.422 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:54:08.089 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:54:36.743 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 15:55:05.522 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:55:34.257 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 15:56:02.933 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 15:56:31.559 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:57:00.810 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 15:57:32.612 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 15:58:02.151 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 15:58:34.399 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 15:59:13.726 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 15:59:40.291 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:00:12.569 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.34ms
+[I 2025-12-08 16:00:41.249 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:01:10.072 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:01:39.197 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 16:02:07.863 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:02:36.588 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:03:05.625 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 16:03:35.566 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:04:06.212 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.33ms
+[I 2025-12-08 16:04:34.850 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:05:03.535 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:05:32.315 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:06:01.008 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:06:29.626 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:06:58.366 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 16:07:27.260 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 16:07:55.929 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:08:24.690 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:08:53.412 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:09:23.030 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:09:52.201 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:10:21.221 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.33ms
+[I 2025-12-08 16:10:50.864 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:11:19.746 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:11:48.501 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:12:17.560 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 16:12:47.305 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:13:17.046 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:13:45.713 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:14:15.412 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:14:44.697 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 16:15:13.347 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:15:42.054 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:16:10.705 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:16:39.354 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 16:17:07.975 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:17:36.633 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:18:05.319 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 16:18:33.966 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:19:02.573 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:19:31.223 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:19:59.839 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:20:28.429 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:20:57.059 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:21:25.726 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:21:54.344 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:22:23.043 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:22:51.704 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:23:20.322 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:23:48.973 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:24:17.624 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:24:46.263 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:25:14.898 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:25:43.458 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:26:12.064 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:26:40.937 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:27:09.552 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:27:38.139 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:28:06.718 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:28:35.355 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:29:03.950 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:29:32.611 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:30:01.226 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:30:29.827 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:30:58.396 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:31:27.013 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:31:55.799 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:32:24.563 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:32:53.154 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:33:21.732 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:33:50.352 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:34:18.915 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:34:47.371 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:35:15.997 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 16:35:44.572 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:36:13.092 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:36:41.703 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:37:10.352 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:37:38.872 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:38:07.773 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:38:36.272 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:39:04.840 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:39:33.352 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:40:01.964 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 16:40:30.611 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:40:59.271 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:41:27.951 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:41:56.992 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:42:25.652 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.36ms
+[I 2025-12-08 16:42:54.331 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:43:22.991 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:43:51.812 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:44:20.532 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:44:49.184 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:45:17.871 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:45:46.608 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:46:15.291 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 16:46:43.941 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 16:47:12.602 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:47:41.291 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 16:48:09.932 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:48:38.592 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:49:07.277 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:49:35.907 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:50:04.567 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:50:33.187 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:51:01.848 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:51:30.808 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:51:59.787 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 16:52:28.448 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:52:57.079 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:53:25.727 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:53:54.340 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:54:22.968 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 16:54:51.609 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:55:20.240 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:55:48.867 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 16:56:17.564 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:56:46.208 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:57:14.839 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 16:57:43.499 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 16:58:12.347 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 16:58:41.208 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 16:59:09.907 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 16:59:38.663 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:00:07.308 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:00:35.839 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:01:04.401 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:01:32.885 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:02:02.167 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:02:30.719 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 17:02:59.243 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:03:27.703 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 17:03:56.191 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 17:04:24.662 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:04:53.184 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:05:21.733 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:05:50.292 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:06:18.880 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:06:47.391 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:07:15.971 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:07:44.491 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 17:08:13.004 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:08:41.551 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:09:09.983 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:09:38.432 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:10:07.160 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:10:35.823 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:11:04.432 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:11:33.092 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:12:01.563 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:12:30.031 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:12:58.531 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:13:27.087 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:13:55.543 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:14:24.047 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:14:52.692 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:15:22.414 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:15:50.971 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:16:19.971 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:16:48.502 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:17:17.091 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:17:45.592 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:18:14.044 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:18:42.476 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:19:10.932 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:19:39.330 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:20:07.791 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:20:36.212 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:21:04.611 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:21:32.983 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:22:01.369 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:22:29.771 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:22:58.191 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:23:26.757 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:23:55.279 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:24:23.759 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:24:52.151 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:25:20.560 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:25:50.640 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:26:19.100 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:26:47.484 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:27:15.943 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 17:27:44.331 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:28:12.871 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:28:41.347 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:29:09.839 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:29:38.392 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:30:06.883 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:30:35.352 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:31:04.031 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:31:32.791 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 17:32:01.371 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:32:29.943 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:32:58.464 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:33:27.092 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:33:55.671 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:34:24.243 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:34:52.832 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:35:21.412 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:35:49.982 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:36:18.663 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:36:47.292 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:37:15.872 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:37:44.351 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:38:12.751 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:38:41.183 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:39:09.611 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:39:38.035 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:40:06.520 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:40:34.971 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:41:03.431 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:41:31.831 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 17:42:00.236 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:42:28.743 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 17:42:57.174 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:43:25.633 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:43:54.432 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 17:44:22.993 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:44:51.400 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 17:45:19.883 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:45:48.304 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:46:16.804 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:46:45.293 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 17:47:13.707 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:47:42.164 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:48:10.633 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:48:39.024 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 17:49:07.902 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:49:36.311 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:50:04.840 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:50:33.372 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:51:01.773 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:51:30.192 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:51:58.569 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:52:27.024 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:52:55.691 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:53:24.363 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:53:53.032 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:54:21.472 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:54:49.899 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:55:18.352 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:55:46.883 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:56:15.392 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 17:56:43.839 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 17:57:12.312 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 17:57:40.837 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 17:58:10.273 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 17:58:45.096 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.35ms
+[I 2025-12-08 17:59:12.920 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 17:59:49.958 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:00:14.644 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 18:00:43.126 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:01:12.981 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:01:41.517 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:02:10.012 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:02:38.433 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:03:06.909 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:03:35.372 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:04:03.920 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:04:32.433 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:05:00.912 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:05:29.432 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:05:58.579 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:06:26.980 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:06:55.451 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:07:23.952 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:07:52.432 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:08:20.823 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 18:08:49.251 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:09:17.771 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:09:46.244 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:10:14.813 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:10:43.311 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:11:11.752 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.41ms
+[I 2025-12-08 18:11:40.171 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:12:08.632 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:12:37.092 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:13:05.910 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:13:34.459 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:14:03.003 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:14:31.519 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:14:59.971 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:15:28.544 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:15:57.012 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:16:25.484 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:16:54.033 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:17:22.512 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:17:51.191 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:18:19.772 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:18:48.251 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:19:16.733 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:19:45.412 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:20:14.112 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:20:42.611 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:21:11.091 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:21:39.545 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:22:08.171 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:22:36.734 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:23:06.063 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:23:35.383 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:24:03.880 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:24:32.363 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:25:01.553 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:25:29.942 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.33ms
+[I 2025-12-08 18:25:58.384 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:26:26.813 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:26:55.252 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:27:23.800 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:27:52.437 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:28:20.852 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:28:55.549 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:29:22.797 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:29:51.600 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:30:20.011 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:30:48.414 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:31:16.872 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:31:45.332 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:32:13.865 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:32:42.340 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:33:10.853 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:33:39.325 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:34:07.771 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:34:36.352 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:35:05.323 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 18:35:33.753 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:36:02.191 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:36:30.653 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:36:59.113 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 18:37:27.593 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:37:56.090 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:38:24.534 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:38:52.971 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:39:21.425 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:39:49.892 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:40:18.365 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:40:46.852 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:41:15.256 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:41:43.719 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:42:12.204 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:42:40.673 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:43:09.144 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:43:37.590 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:44:07.490 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:44:35.907 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:45:04.383 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:45:32.811 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:46:01.203 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:46:29.663 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:46:58.148 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 18:47:26.743 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:47:55.251 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:48:23.692 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:48:52.173 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 18:49:20.671 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:49:49.171 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.33ms
+[I 2025-12-08 18:50:17.643 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:50:46.171 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:51:14.721 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:51:43.198 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:52:11.611 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:52:40.031 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:53:08.443 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 18:53:37.040 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:54:05.612 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 18:54:34.063 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:55:02.472 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 18:55:31.119 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:55:59.713 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:56:28.320 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:56:56.843 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:57:25.342 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:57:53.832 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 18:58:22.331 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:58:50.851 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 18:59:19.282 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 18:59:47.754 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 19:00:16.472 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:00:44.993 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:01:13.664 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:01:42.112 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:02:10.540 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:02:38.952 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:03:07.376 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:03:36.039 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 19:04:04.431 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:04:32.851 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:05:01.214 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:05:29.671 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:05:58.064 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:06:26.691 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 19:06:55.133 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:07:23.619 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:07:52.132 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.34ms
+[I 2025-12-08 19:08:20.592 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:08:49.104 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:09:17.612 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:09:46.132 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:10:14.603 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 19:10:43.071 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:11:11.571 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:11:40.011 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.34ms
+[I 2025-12-08 19:12:08.452 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:12:36.951 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:13:05.452 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:13:34.043 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:14:02.713 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:14:31.273 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:14:59.812 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:15:28.371 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:15:56.923 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:16:25.452 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:16:54.033 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:17:22.642 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 19:17:51.179 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:18:19.692 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 19:18:48.271 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:19:16.831 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:19:45.331 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:20:13.863 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:20:42.451 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:21:11.032 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:21:39.591 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:22:08.163 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:22:36.694 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:23:05.260 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 19:23:33.919 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:24:02.471 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:24:31.064 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:24:59.631 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:25:28.191 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:25:56.691 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:26:25.331 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:26:53.931 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:27:22.471 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:27:51.051 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:28:19.591 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:28:48.133 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:29:16.792 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:29:45.311 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 19:30:13.891 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 19:30:42.491 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:31:11.001 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 19:31:39.513 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:32:07.971 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:32:36.551 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:33:05.140 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:33:33.673 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:34:02.224 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:34:30.711 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:34:59.411 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:35:27.972 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:35:56.759 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:36:25.351 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:36:53.891 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:37:22.471 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:37:51.043 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:38:19.462 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:38:47.972 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 19:39:16.532 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 19:39:45.103 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:40:13.611 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:40:42.267 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:41:10.852 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:41:39.383 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:42:07.931 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:42:36.478 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:43:05.063 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:43:33.611 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:44:02.151 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:44:30.719 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:44:59.223 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:45:27.751 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:45:56.243 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 19:46:24.844 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:46:53.351 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:47:21.883 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 19:47:50.419 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:48:19.017 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:48:47.481 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:49:16.004 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:49:44.511 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:50:12.972 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:50:41.504 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 19:51:09.989 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:51:38.523 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:52:07.072 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:52:35.531 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 19:53:04.080 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:53:32.571 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 19:54:01.292 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:54:29.900 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:54:58.433 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 19:55:27.010 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:55:55.531 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:56:24.028 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:56:52.513 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:57:20.972 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 19:57:49.479 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:58:17.949 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 19:58:46.383 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 19:59:14.908 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 19:59:43.412 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:00:12.099 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.35ms
+[I 2025-12-08 20:00:40.564 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:01:09.051 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:01:37.543 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:02:06.061 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:02:34.543 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:03:03.012 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:03:31.472 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:03:59.991 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:04:28.531 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:04:57.051 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:05:25.632 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:05:54.111 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:06:22.643 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:06:51.271 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:07:19.800 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:07:48.352 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:08:16.843 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 20:08:45.371 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:09:13.832 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:09:42.413 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:10:10.912 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:10:39.396 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 20:11:07.952 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 20:11:36.711 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:12:05.203 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:12:33.780 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:13:02.311 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 20:13:30.824 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:13:59.291 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:14:27.852 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 20:14:56.391 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:15:24.873 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:15:53.376 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:16:21.856 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:16:50.351 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:17:18.872 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:17:47.263 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:18:15.794 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 20:18:44.321 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:19:12.811 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:19:41.299 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:20:09.812 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:20:38.431 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 20:21:06.884 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:21:35.332 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:22:03.801 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:22:32.321 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:23:00.843 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:23:29.383 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:23:57.858 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:24:26.295 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:24:55.033 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:25:24.411 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:25:53.751 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:26:22.227 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:26:50.711 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:27:19.272 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:27:47.810 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:28:16.324 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:28:44.771 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 20:29:13.231 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:29:41.727 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:30:10.282 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:30:39.372 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:31:07.904 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:31:36.480 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:32:05.032 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 20:32:33.544 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:33:02.004 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:33:30.792 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:33:59.291 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:34:27.774 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:34:56.312 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:35:24.813 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:35:53.372 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:36:21.952 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:36:50.453 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 20:37:18.932 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:37:47.424 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:38:15.913 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:38:44.393 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:39:12.919 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 20:39:41.360 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:40:09.843 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 20:40:38.274 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:41:06.732 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:41:35.251 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:42:03.731 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:42:32.251 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 20:43:00.785 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:43:29.272 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:43:57.805 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:44:26.312 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:44:54.920 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 20:45:23.512 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:45:52.027 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:46:20.537 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:46:49.059 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.35ms
+[I 2025-12-08 20:47:17.551 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:47:46.072 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 20:48:14.591 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:48:43.068 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:49:11.561 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 20:49:40.045 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:50:08.521 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:50:36.991 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:51:05.625 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:51:34.106 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 20:52:02.664 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:52:31.184 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:52:59.653 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:53:28.406 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:53:56.983 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:54:25.484 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:54:53.937 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:55:22.384 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 20:55:50.791 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:56:19.428 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 20:56:48.200 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 20:57:16.709 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 20:57:45.157 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:58:13.625 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 20:58:42.068 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 20:59:10.600 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 20:59:39.065 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:00:07.531 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:00:35.943 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:01:04.409 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:01:32.871 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:02:01.452 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:02:29.903 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:02:58.412 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:03:26.943 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:03:55.394 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 21:04:23.912 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:04:52.413 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:05:20.943 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:05:49.488 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 21:06:17.971 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 21:06:46.451 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 21:07:14.937 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:07:43.459 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:08:12.030 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:08:40.591 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:09:09.071 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:09:37.603 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 21:10:06.012 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:10:34.434 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:11:02.899 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:11:31.438 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 21:12:00.096 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:12:28.657 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:12:57.111 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:13:25.651 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:13:54.211 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:14:22.749 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:14:51.290 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:15:19.791 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:15:48.324 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:16:17.219 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:16:45.811 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 21:17:14.312 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:17:42.744 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:18:11.188 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:18:39.693 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:19:08.277 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:19:36.753 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:20:05.240 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 21:20:33.752 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:21:02.271 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:21:30.732 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 21:21:59.248 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:22:27.748 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 21:22:56.212 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:23:24.684 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:23:53.091 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:24:21.633 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:24:50.138 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:25:18.622 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 21:25:47.071 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:26:15.600 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:26:44.132 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:27:12.616 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:27:41.031 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:28:09.532 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:28:38.012 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 21:29:06.491 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:29:35.053 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:30:03.607 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:30:32.052 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:31:00.558 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:31:29.083 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:31:57.511 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:32:26.001 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:32:54.529 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 21:33:23.051 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:33:51.612 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:34:20.043 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:34:48.471 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 21:35:16.920 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 21:35:45.417 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:36:13.918 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:36:42.331 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:37:10.827 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:37:39.333 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:38:07.738 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:38:36.260 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:39:04.756 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:39:33.276 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:40:01.833 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:40:30.294 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:40:58.792 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:41:27.262 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:41:55.712 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:42:24.240 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:42:52.768 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:43:21.172 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 21:43:49.564 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:44:18.091 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:44:46.513 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:45:15.029 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:45:43.485 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:46:12.078 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:46:40.539 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:47:09.043 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:47:37.518 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:48:06.144 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 21:48:34.744 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:49:03.198 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:49:31.770 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:50:00.297 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:50:28.777 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 21:50:57.252 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 21:51:25.660 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:51:54.172 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:52:22.658 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:52:51.134 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 21:53:19.616 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:53:48.132 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:54:16.562 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:54:45.174 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.35ms
+[I 2025-12-08 21:55:13.713 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:55:42.167 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:56:10.689 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:56:39.147 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:57:07.672 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 21:57:36.150 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:58:04.721 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:58:33.210 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 21:59:01.680 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 21:59:30.072 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 21:59:58.582 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:00:27.201 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:00:55.702 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:01:24.141 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:01:52.672 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:02:21.234 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:02:49.705 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:03:18.224 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 22:03:46.715 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:04:15.259 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:04:43.746 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:05:12.276 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:05:40.732 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 22:06:09.192 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:06:37.652 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:07:06.163 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:07:34.600 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:08:03.044 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:08:31.515 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 22:09:00.068 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 22:09:28.571 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 22:09:57.071 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:10:25.612 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:10:54.623 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:11:23.173 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:11:51.644 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:12:20.487 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:12:49.004 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:13:17.439 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:13:46.072 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 22:14:14.544 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 22:14:43.072 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:15:11.555 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:15:40.109 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:16:08.593 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:16:37.068 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:17:05.676 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 22:17:34.205 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:18:02.651 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:18:31.247 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:18:59.732 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:19:28.244 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:19:56.793 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:20:25.332 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:20:53.860 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:21:22.331 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:21:50.820 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:22:19.303 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:22:47.753 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:23:16.215 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.25ms
+[I 2025-12-08 22:23:44.646 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 22:24:13.211 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:24:41.686 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:25:10.221 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 22:25:38.951 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:26:07.461 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:26:35.940 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:27:04.734 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.32ms
+[I 2025-12-08 22:27:33.812 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 22:28:05.177 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:28:33.776 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:29:02.329 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:29:31.109 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 22:29:59.614 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:30:28.087 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[I 2025-12-08 22:30:56.583 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 22:31:26.983 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:31:57.084 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 22:32:25.579 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:32:54.187 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.31ms
+[I 2025-12-08 22:33:22.667 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:33:51.158 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:34:19.872 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:34:48.403 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:35:17.174 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:35:45.795 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.26ms
+[I 2025-12-08 22:36:14.395 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:36:42.937 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:37:11.430 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.30ms
+[I 2025-12-08 22:37:39.938 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.29ms
+[I 2025-12-08 22:38:08.409 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.27ms
+[I 2025-12-08 22:38:36.888 ServerApp] 302 GET /?v=1&client_id=227491271223017472&encoding=json (@192.168.0.51) 0.28ms
+[W 2025-12-08 22:40:44.110 ServerApp] WebSocket ping timeout after 119937 ms.
+[I 2025-12-08 22:40:49.114 ServerApp] Starting buffering for b4f8f537-d47d-4b55-a43e-14e0e9388293:1f02d867-0c32-42d5-b6f8-89a5e30d01bf
+slurmstepd: error: *** JOB 512372 ON ai01 CANCELLED AT 2025-12-09T14:10:20 DUE TO TIME LIMIT ***

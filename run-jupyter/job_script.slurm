@@ -9,15 +9,14 @@
 #SBATCH --job-name=default_job
 #SBATCH --nodes 1
 #SBATCH --ntasks-per-node=2
-#SBATCH --mem=100G
+#SBATCH --mem=32G
 #SBATCH --partition=ai
 #SBATCH --account=ai
 #SBATCH --qos=ai
 #SBATCH --time=1-00:00:00
-#SBATCH --output=/scratch/users/asaydam21/hpc_run/functions/run-jupyter/logs/jupyter-%J.log
+#SBATCH --output=/home/asaydam21/slurm-utilities/run-jupyter/logs/jupyter-%J.log
 ##SBATCH --mail-type=ALL
 ##SBATCH --mail-user=alpersaydam@live.com
-
 
 
 ################################################################################
@@ -28,7 +27,9 @@
 echo "======================="
 echo "Loading Anaconda Module..."
 #module load anaconda/2.7
-module load anaconda/3.21.05
+module load conda/latest
+conda init
+source activate py311
 echo "======================="
 
 echo
@@ -39,10 +40,10 @@ echo
 echo
 
 # Set stack size to unlimited
-echo "Setting stack size to unlimited..."
-ulimit -s unlimited
-ulimit -l unlimited
-ulimit -a
+#echo "Setting stack size to unlimited..."
+#ulimit -s unlimited
+#ulimit -l unlimited
+#ulimit -a
 echo
 
 ################################################################################
@@ -64,19 +65,20 @@ echo -e "
 Forwarded port:same as remote port
 Remote server: ${node}
 Remote port: ${port}
-SSH server: login.kuacc.ku.edu.tr
+SSH server: 172.20.240.205
 SSH login: $user
 SSH port: 22
 
 ====================================================================================
 # MacOS or linux terminal command to create your ssh tunnel on your local machine:
 
-ssh -N -L ${port}:${node}:${port} ${user}@login.kuacc.ku.edu.tr
+ssh -N -L ${port}:${node}:${port} ${user}@172.20.240.205
 ====================================================================================
 
 Jupyter server information is below
 "
 # DON'T USE ADDRESS BELOW. 
 # DO USE TOKEN BELOW
-jupyter-notebook --no-browser --port=${port} --ip="*" --notebook-dir=$HOME/hpc_run/
+jupyter-lab --no-browser --port=${port} --ip="*" --notebook-dir=$HOME
+#jupyter-lab --no-browser --ip $(hostname -f)
 

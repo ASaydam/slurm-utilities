@@ -1,0 +1,544 @@
+=======================
+Loading Anaconda Module...
+no change     /opt/ohpc/pub/compiler/conda/latest/condabin/conda
+no change     /opt/ohpc/pub/compiler/conda/latest/bin/conda
+no change     /opt/ohpc/pub/compiler/conda/latest/bin/conda-env
+no change     /opt/ohpc/pub/compiler/conda/latest/bin/activate
+no change     /opt/ohpc/pub/compiler/conda/latest/bin/deactivate
+no change     /opt/ohpc/pub/compiler/conda/latest/etc/profile.d/conda.sh
+no change     /opt/ohpc/pub/compiler/conda/latest/etc/fish/conf.d/conda.fish
+no change     /opt/ohpc/pub/compiler/conda/latest/shell/condabin/Conda.psm1
+no change     /opt/ohpc/pub/compiler/conda/latest/shell/condabin/conda-hook.ps1
+no change     /opt/ohpc/pub/compiler/conda/latest/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /opt/ohpc/pub/compiler/conda/latest/etc/profile.d/conda.csh
+no change     /home/asaydam21/.bashrc
+No action taken.
+=======================
+
+============================== ENVIRONMENT VARIABLES ===============================
+HYDRA_LAUNCHER_EXTRA_ARGS=--external-launcher
+CONDA_SHLVL=1
+LD_LIBRARY_PATH=/opt/ohpc/pub/compiler/conda/latest/lib
+LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+CONDA_EXE=/opt/ohpc/pub/compiler/conda/latest/bin/conda
+SLURM_NODEID=0
+SLURM_TASK_PID=3824333
+__LMOD_REF_COUNT_PATH=/opt/ohpc/pub/compiler/conda/latest/bin:1;/opt/ohpc/pub/compiler/tmux/3.3a/bin:1;/home/asaydam21/.local/bin:1;/home/asaydam21/bin:1;/opt/ohpc/pub/compiler/conda/latest/condabin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1
+_ModuleTable002_=IiwKbG9hZE9yZGVyID0gMSwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDAsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJ0bXV4LzMuM2EiLAp3ViA9ICIwMDAwMDAwMDMuMDAwMDAwMDAzLiphLip6ZmluYWwiLAp9LAp9LAptcGF0aEEgPSB7CiIvb3B0L29ocGMvcHViL21vZHVsZWZpbGVzIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXMiLAp9Cg==
+SSH_CONNECTION=172.24.4.231 60846 192.168.0.51 22
+INCLUDE=/opt/ohpc/pub/compiler/conda/latest/include
+SLURM_PRIO_PROCESS=0
+I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-launcher
+LANG=en_US.UTF-8
+SLURM_SUBMIT_DIR=/home/asaydam21/slurm-utilities/run-jupyter/logs
+HISTCONTROL=ignoredups
+OMPI_MCA_plm_slurm_args=--external-launcher
+HOSTNAME=ai18
+OLDPWD=/home/asaydam21/slurm-utilities/run-jupyter
+ENVIRONMENT=BATCH
+FPATH=/opt/ohpc/admin/lmod/lmod/init/ksh_funcs
+CONDA_PREFIX=/home/asaydam21/.conda/envs/py311
+SLURM_PROCID=0
+SLURM_JOB_GID=1810810000
+__LMOD_REF_COUNT_INCLUDE=/opt/ohpc/pub/compiler/conda/latest/include:1
+I_MPI_HYDRA_BOOTSTRAP=slurm
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/ohpc/pub/compiler/conda/latest/lib:1
+SLURMD_NODENAME=ai18
+SLURM_JOB_END_TIME=1743963992
+SLURM_TASKS_PER_NODE=1
+__LMOD_REF_COUNT_PYTHONPATH=/opt/ohpc/pub/compiler/conda/latest/lib:1
+PRTE_MCA_plm_slurm_args=--external-launcher
+_CE_M=
+which_declare=declare -f
+XDG_SESSION_ID=1751
+SLURM_NNODES=1
+USER=asaydam21
+SLURM_JOB_START_TIME=1743704792
+SLURM_NTASKS_PER_NODE=1
+__LMOD_REF_COUNT_MODULEPATH=/opt/ohpc/pub/modulefiles:1
+PWD=/home/asaydam21/slurm-utilities/run-jupyter/logs
+SLURM_JOB_NODELIST=ai18
+HOME=/home/asaydam21
+SLURM_CLUSTER_NAME=valar
+CONDA_PYTHON_EXE=/opt/ohpc/pub/compiler/conda/latest/bin/python
+LMOD_COLORIZE=no
+SLURM_NODELIST=ai18
+SSH_CLIENT=172.24.4.231 60846 22
+LMOD_VERSION=8.7.53
+SLURM_NTASKS=1
+LMOD_SETTARG_CMD=:
+KRB5CCNAME=KCM:
+SLURM_JOB_CPUS_PER_NODE=1
+BASH_ENV=/opt/ohpc/admin/lmod/lmod/init/bash
+SLURM_TOPOLOGY_ADDR=ai18
+_CE_CONDA=
+SLURM_JOB_NAME=default_job
+TMPDIR=/scratch/tmp
+SLURM_JOBID=2287414
+LIBPATH=/opt/ohpc/pub/compiler/conda/latest/lib
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0ge30sCm1UID0gewpjb25kYSA9IHsKZm4gPSAiL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlcy9jb25kYS9sYXRlc3QiLApmdWxsTmFtZSA9ICJjb25kYS9sYXRlc3QiLApsb2FkT3JkZXIgPSAyLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImNvbmRhL2xhdGVzdCIsCndWID0gIipsYXRlc3QuKnpmaW5hbCIsCn0sCnRtdXggPSB7CmZuID0gIi9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXMvdG11eC8zLjNhIiwKZnVsbE5hbWUgPSAidG11eC8zLjNh
+SLURM_CONF=/etc/slurm/slurm.conf
+LOADEDMODULES=tmux/3.3a:conda/latest
+__LMOD_REF_COUNT_MANPATH=/opt/ohpc/pub/compiler/conda/latest/share/man:1
+LMOD_ROOT=/opt/ohpc/admin/lmod
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+CONDA_PROMPT_MODIFIER=(py311) 
+SSH_TTY=/dev/pts/7
+MAIL=/var/spool/mail/asaydam21
+SLURM_CPUS_ON_NODE=1
+SLURM_JOB_NUM_NODES=1
+SLURM_MEM_PER_NODE=10240
+TERM=xterm-256color
+SHELL=/bin/bash
+SLURM_JOB_UID=1111956
+_ModuleTable_Sz_=2
+SLURM_JOB_PARTITION=ai
+SLURM_JOB_USER=asaydam21
+SLURM_NPROCS=1
+SHLVL=3
+SLURM_SUBMIT_HOST=login02
+PYTHONPATH=/opt/ohpc/pub/compiler/conda/latest/lib
+__LMOD_REF_COUNT_LIBPATH=/opt/ohpc/pub/compiler/conda/latest/lib:1
+SLURM_JOB_ACCOUNT=ai
+MANPATH=/opt/ohpc/pub/compiler/conda/latest/share/man
+HYDRA_BOOTSTRAP=slurm
+LMOD_PREPEND_BLOCK=normal
+MODULEPATH=/opt/ohpc/pub/modulefiles
+SLURM_GTIDS=0
+LOGNAME=asaydam21
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1111956/bus
+XDG_RUNTIME_DIR=/run/user/1111956
+PATH=/home/asaydam21/.conda/envs/py311/bin:/opt/ohpc/pub/compiler/conda/latest/bin:/opt/ohpc/pub/compiler/tmux/3.3a/bin:/home/asaydam21/.local/bin:/home/asaydam21/bin:/opt/ohpc/pub/compiler/conda/latest/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+SLURM_JOB_ID=2287414
+_LMFILES_=/opt/ohpc/pub/modulefiles/tmux/3.3a:/opt/ohpc/pub/modulefiles/conda/latest
+DEBUGINFOD_URLS=https://debuginfod.centos.org/ 
+MODULESHOME=/opt/ohpc/admin/lmod/lmod
+CONDA_DEFAULT_ENV=py311
+LMOD_SETTARG_FULL_SUPPORT=no
+HISTSIZE=1000
+LMOD_PKG=/opt/ohpc/admin/lmod/lmod
+LMOD_CMD=/opt/ohpc/admin/lmod/lmod/libexec/lmod
+SLURM_LOCALID=0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_FULL_SETTARG_SUPPORT=no
+LMOD_DIR=/opt/ohpc/admin/lmod/lmod/libexec
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+_=/usr/bin/env
+====================================================================================
+
+
+
+
+====================================================================================
+
+ Here is the MobaXterm info:
+
+Forwarded port:same as remote port
+Remote server: ai18
+Remote port: 6372
+SSH server: 172.20.240.205
+SSH login: asaydam21
+SSH port: 22
+
+====================================================================================
+# MacOS or linux terminal command to create your ssh tunnel on your local machine:
+
+ssh -N -L 6372:ai18:6372 asaydam21@172.20.240.205
+====================================================================================
+
+Jupyter server information is below
+
+[I 2025-04-03 21:26:36.887 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-04-03 21:26:36.893 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-04-03 21:26:36.899 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-04-03 21:26:37.753 ServerApp] notebook_shim | extension was successfully linked.
+[W 2025-04-03 21:26:37.813 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2025-04-03 21:26:37.814 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-04-03 21:26:37.841 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-04-03 21:26:37.842 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-04-03 21:26:37.853 LabApp] JupyterLab extension loaded from /home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyterlab
+[I 2025-04-03 21:26:37.853 LabApp] JupyterLab application directory is /home/asaydam21/.conda/envs/py311/share/jupyter/lab
+[I 2025-04-03 21:26:37.855 LabApp] Extension Manager is 'pypi'.
+[I 2025-04-03 21:26:37.944 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-04-03 21:26:37.945 ServerApp] Serving notebooks from local directory: /home/asaydam21
+[I 2025-04-03 21:26:37.945 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2025-04-03 21:26:37.945 ServerApp] http://localhost:6372/lab?token=e6c53f75534316c2cb1ab7bfa4a1a49b255a509961f390d5
+[I 2025-04-03 21:26:37.946 ServerApp]     http://127.0.0.1:6372/lab?token=e6c53f75534316c2cb1ab7bfa4a1a49b255a509961f390d5
+[I 2025-04-03 21:26:37.946 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-04-03 21:26:37.954 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/asaydam21/.local/share/jupyter/runtime/jpserver-3824351-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:6372/lab?token=e6c53f75534316c2cb1ab7bfa4a1a49b255a509961f390d5
+        http://127.0.0.1:6372/lab?token=e6c53f75534316c2cb1ab7bfa4a1a49b255a509961f390d5
+[I 2025-04-03 21:26:38.525 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-04-03 21:27:04.928 LabApp] Build is up to date
+[W 2025-04-03 21:27:05.300 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/train_functions_pinn-Copy1.py?content=0&hash=0&1743704825358 (45ba414863a2473bb1cf58efaf8c0b28@192.168.0.51) 1.12ms referer=http://127.0.0.1:6372/lab
+[W 2025-04-03 21:27:05.301 ServerApp] 404 GET /api/contents/transient-flow-prediction/deepcfd_extended/src/deepcfd/train_functions_pinn-Copy1.py?content=0&hash=0&1743704825358 (192.168.0.51): No such file or directory: transient-flow-prediction/deepcfd_extended/src/deepcfd/train_functions_pinn-Copy1.py
+[W 2025-04-03 21:27:07.222 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743704826988 (45ba414863a2473bb1cf58efaf8c0b28@192.168.0.51) 2.84ms referer=http://127.0.0.1:6372/lab
+[I 2025-04-03 21:27:07.223 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py', via 404 Error
+[E 2025-04-03 21:27:07.224 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743704826988 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6372', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743704826988', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-04-03 21:27:07.274 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743704826992 (45ba414863a2473bb1cf58efaf8c0b28@192.168.0.51) 0.87ms referer=http://127.0.0.1:6372/lab
+[I 2025-04-03 21:27:07.275 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py', via 404 Error
+[E 2025-04-03 21:27:07.275 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743704826992 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6372', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743704826992', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-04-03 21:27:07.366 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py?content=0&hash=0&1743704827070 (45ba414863a2473bb1cf58efaf8c0b28@192.168.0.51) 1.34ms referer=http://127.0.0.1:6372/lab
+[I 2025-04-03 21:27:07.368 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py', via 404 Error
+[E 2025-04-03 21:27:07.368 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py?content=0&hash=0&1743704827070 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6372', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py?content=0&hash=0&1743704827070', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-04-03 21:27:08.057 ServerApp] Kernel started: 6744d321-44dd-4f58-bc23-4b5861d5d55a
+[I 2025-04-03 21:27:08.080 ServerApp] Kernel started: 2f7cb9ba-db6d-459d-b926-0aafa0035c35
+[I 2025-04-03 21:27:08.108 ServerApp] Kernel started: 9fd2fed4-4cfd-4573-a833-e2d3fe759457
+[I 2025-04-03 21:27:08.123 ServerApp] Kernel started: f6dc9337-8d8c-4039-b33d-e679bec558c1
+[I 2025-04-03 21:27:09.776 ServerApp] Connecting to kernel 2f7cb9ba-db6d-459d-b926-0aafa0035c35.
+[I 2025-04-03 21:27:10.008 ServerApp] Starting buffering for 2f7cb9ba-db6d-459d-b926-0aafa0035c35:b8caf89d-087a-4619-9ab2-528db46505c8
+[I 2025-04-03 21:27:10.014 ServerApp] Connecting to kernel 6744d321-44dd-4f58-bc23-4b5861d5d55a.
+[I 2025-04-03 21:27:10.299 ServerApp] Connecting to kernel 2f7cb9ba-db6d-459d-b926-0aafa0035c35.
+[I 2025-04-03 21:27:10.527 ServerApp] Connecting to kernel 9fd2fed4-4cfd-4573-a833-e2d3fe759457.
+[I 2025-04-03 21:27:10.763 ServerApp] Connecting to kernel f6dc9337-8d8c-4039-b33d-e679bec558c1.
+[I 2025-04-03 21:27:11.001 ServerApp] Starting buffering for f6dc9337-8d8c-4039-b33d-e679bec558c1:40dd000c-ddeb-4f78-94fb-8508ec3ccd89
+[I 2025-04-03 21:27:11.004 ServerApp] Connecting to kernel f6dc9337-8d8c-4039-b33d-e679bec558c1.
+[I 2025-04-03 21:27:11.257 ServerApp] Connecting to kernel f6dc9337-8d8c-4039-b33d-e679bec558c1.
+[W 2025-04-03 22:37:10.018 ServerApp] WebSocket ping timeout after 119625 ms.
+[W 2025-04-03 22:37:10.300 ServerApp] WebSocket ping timeout after 119820 ms.
+[W 2025-04-03 22:37:10.528 ServerApp] WebSocket ping timeout after 119918 ms.
+[W 2025-04-03 22:37:11.007 ServerApp] WebSocket ping timeout after 119844 ms.
+[I 2025-04-03 22:37:15.021 ServerApp] Starting buffering for 6744d321-44dd-4f58-bc23-4b5861d5d55a:51eb1e85-7214-4ad3-a56c-2ebfa4d12325
+[I 2025-04-03 22:37:15.301 ServerApp] Starting buffering for 2f7cb9ba-db6d-459d-b926-0aafa0035c35:4756e98d-ffbf-4a6d-8196-c2136289dd70
+[I 2025-04-03 22:37:15.530 ServerApp] Starting buffering for 9fd2fed4-4cfd-4573-a833-e2d3fe759457:43636121-e3be-463e-8f15-dbd5e0d72bd3
+[I 2025-04-03 22:37:16.010 ServerApp] Starting buffering for f6dc9337-8d8c-4039-b33d-e679bec558c1:efc65f83-c87a-4919-89af-d4f05dadc8b4
+[I 2025-04-05 13:59:50.919 ServerApp] Connecting to kernel 6744d321-44dd-4f58-bc23-4b5861d5d55a.
+[I 2025-04-05 13:59:51.510 ServerApp] Connecting to kernel 2f7cb9ba-db6d-459d-b926-0aafa0035c35.
+[I 2025-04-05 13:59:52.019 LabApp] Build is up to date
+[I 2025-04-05 13:59:52.339 ServerApp] Starting buffering for 6744d321-44dd-4f58-bc23-4b5861d5d55a:476f5c4d-3be7-4040-af5f-ea4062b17437
+[I 2025-04-05 13:59:52.733 ServerApp] Connecting to kernel 9fd2fed4-4cfd-4573-a833-e2d3fe759457.
+[I 2025-04-05 13:59:53.194 ServerApp] Starting buffering for 2f7cb9ba-db6d-459d-b926-0aafa0035c35:1099b9c8-2dad-424e-a182-b749b5637e23
+[I 2025-04-05 13:59:53.750 ServerApp] Connecting to kernel f6dc9337-8d8c-4039-b33d-e679bec558c1.
+[I 2025-04-05 13:59:53.770 ServerApp] Starting buffering for 9fd2fed4-4cfd-4573-a833-e2d3fe759457:a99985dc-09f4-481e-9890-346b48f87769
+[I 2025-04-05 13:59:55.256 ServerApp] Starting buffering for f6dc9337-8d8c-4039-b33d-e679bec558c1:fa9ef079-4acb-406c-a90d-ca00a625193e
+[I 2025-04-05 14:10:06.061 ServerApp] Connecting to kernel 6744d321-44dd-4f58-bc23-4b5861d5d55a.
+[I 2025-04-05 14:10:06.360 ServerApp] Connecting to kernel 2f7cb9ba-db6d-459d-b926-0aafa0035c35.
+[I 2025-04-05 14:10:06.407 ServerApp] Starting buffering for 6744d321-44dd-4f58-bc23-4b5861d5d55a:c03acce5-5332-4f42-aca6-754cd59db9c6
+[I 2025-04-05 14:10:06.585 ServerApp] Starting buffering for 2f7cb9ba-db6d-459d-b926-0aafa0035c35:7bf6f492-5afc-425d-8916-cd4a2cd97a8f
+[I 2025-04-05 14:10:06.587 ServerApp] Connecting to kernel 9fd2fed4-4cfd-4573-a833-e2d3fe759457.
+[I 2025-04-05 14:10:06.827 ServerApp] Starting buffering for 9fd2fed4-4cfd-4573-a833-e2d3fe759457:458af154-8b3c-4c26-ba5c-3cb4c1ae0bc7
+[I 2025-04-05 14:10:06.828 ServerApp] Connecting to kernel f6dc9337-8d8c-4039-b33d-e679bec558c1.
+[I 2025-04-05 14:10:06.989 LabApp] Build is up to date
+[I 2025-04-05 14:10:07.434 ServerApp] Starting buffering for f6dc9337-8d8c-4039-b33d-e679bec558c1:f35bb88c-838f-4652-866a-95f3dd6be4e6
+[W 2025-04-05 14:10:08.751 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743851408872 (45ba414863a2473bb1cf58efaf8c0b28@192.168.0.51) 1.00ms referer=http://127.0.0.1:6372/lab/tree/datasets/dataset_class.ipynb
+[I 2025-04-05 14:10:08.753 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py', via 404 Error
+[E 2025-04-05 14:10:08.753 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743851408872 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6372', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743851408872', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-04-05 14:10:08.926 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743851408876 (45ba414863a2473bb1cf58efaf8c0b28@192.168.0.51) 1.02ms referer=http://127.0.0.1:6372/lab/tree/datasets/dataset_class.ipynb
+[I 2025-04-05 14:10:08.927 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py', via 404 Error
+[E 2025-04-05 14:10:08.928 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743851408876 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6372', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py?content=0&hash=0&1743851408876', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/h5py/_hl/dataset.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-04-05 14:10:09.603 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py?content=0&hash=0&1743851409534 (45ba414863a2473bb1cf58efaf8c0b28@192.168.0.51) 1.21ms referer=http://127.0.0.1:6372/lab/tree/datasets/dataset_class.ipynb
+[I 2025-04-05 14:10:09.605 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py', via 404 Error
+[E 2025-04-05 14:10:09.606 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py?content=0&hash=0&1743851409534 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6372', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py?content=0&hash=0&1743851409534', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-04-05 14:10:10.522 ServerApp] Connecting to kernel 9fd2fed4-4cfd-4573-a833-e2d3fe759457.
+[I 2025-04-05 14:10:10.966 ServerApp] Connecting to kernel 6744d321-44dd-4f58-bc23-4b5861d5d55a.
+[I 2025-04-05 14:10:11.753 ServerApp] Connecting to kernel 2f7cb9ba-db6d-459d-b926-0aafa0035c35.
+[I 2025-04-05 14:10:12.055 ServerApp] Connecting to kernel f6dc9337-8d8c-4039-b33d-e679bec558c1.
+[I 2025-04-05 14:11:25.441 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 14:12:01.538 ServerApp] Copying 'transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_experiment_6ch_A3_flowbench.sh' to '/transient-flow-prediction/deepcfd_extended/src/deepcfd'
+[I 2025-04-05 14:12:53.928 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_experiment_6ch_A3_flowbench-small.sh
+[I 2025-04-05 14:20:17.800 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 15:03:33.850 ServerApp] Starting buffering for 9fd2fed4-4cfd-4573-a833-e2d3fe759457:3cc2814a-0e31-49ca-83d1-208942cea88d
+[I 2025-04-05 15:03:33.851 ServerApp] Starting buffering for f6dc9337-8d8c-4039-b33d-e679bec558c1:fcdcf5ed-8db5-4b5d-91f0-77b3660d478d
+[I 2025-04-05 15:03:33.852 ServerApp] Starting buffering for 6744d321-44dd-4f58-bc23-4b5861d5d55a:2527863c-e38f-4637-a843-a3266d4de2da
+[I 2025-04-05 15:03:33.853 ServerApp] Starting buffering for 2f7cb9ba-db6d-459d-b926-0aafa0035c35:7d36fa79-4dbd-48b5-bc52-d81139a3562f
+[I 2025-04-05 15:04:24.424 ServerApp] Connecting to kernel f6dc9337-8d8c-4039-b33d-e679bec558c1.
+[I 2025-04-05 15:04:24.425 ServerApp] Restoring connection for f6dc9337-8d8c-4039-b33d-e679bec558c1:fcdcf5ed-8db5-4b5d-91f0-77b3660d478d
+[I 2025-04-05 15:04:24.829 ServerApp] Connecting to kernel 2f7cb9ba-db6d-459d-b926-0aafa0035c35.
+[I 2025-04-05 15:04:24.830 ServerApp] Restoring connection for 2f7cb9ba-db6d-459d-b926-0aafa0035c35:7d36fa79-4dbd-48b5-bc52-d81139a3562f
+[I 2025-04-05 15:04:25.675 ServerApp] Connecting to kernel 9fd2fed4-4cfd-4573-a833-e2d3fe759457.
+[I 2025-04-05 15:04:25.676 ServerApp] Restoring connection for 9fd2fed4-4cfd-4573-a833-e2d3fe759457:3cc2814a-0e31-49ca-83d1-208942cea88d
+[I 2025-04-05 15:04:26.048 ServerApp] Connecting to kernel 6744d321-44dd-4f58-bc23-4b5861d5d55a.
+[I 2025-04-05 15:04:26.048 ServerApp] Restoring connection for 6744d321-44dd-4f58-bc23-4b5861d5d55a:2527863c-e38f-4637-a843-a3266d4de2da
+[I 2025-04-05 15:09:23.268 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:11:23.987 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:13:26.435 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:15:27.385 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:19:29.345 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:20:19.037 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:22:20.342 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:25:03.435 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:34:00.325 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:36:01.123 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:38:02.137 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:40:04.012 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:45:23.745 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 15:47:25.532 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 15:49:26.951 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 15:49:56.282 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 15:50:06.469 ServerApp] Saving file at /datasets/dataset_class.ipynb
+[I 2025-04-05 15:51:57.452 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 15:52:51.740 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 15:53:39.181 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 15:55:23.451 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_experiment_6ch_A3_flowbench-small.sh
+[I 2025-04-05 15:55:39.941 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_experiment_6ch_A3_flowbench-small.sh
+[I 2025-04-05 15:58:28.682 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 16:01:09.765 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 16:24:53.129 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 16:43:24.242 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 16:44:07.582 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 16:46:57.206 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 16:47:46.291 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 16:48:23.240 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/submit_experiment_6ch_A3_flowbench-small.sh
+[I 2025-04-05 16:48:43.010 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 16:50:06.801 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 16:55:51.207 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[I 2025-04-05 16:57:43.342 ServerApp] Saving file at /transient-flow-prediction/deepcfd_extended/src/deepcfd/main_transient.py
+[W 2025-04-05 17:00:24.428 ServerApp] WebSocket ping timeout after 117910 ms.
+[W 2025-04-05 17:00:24.831 ServerApp] WebSocket ping timeout after 117402 ms.
+[W 2025-04-05 17:00:25.677 ServerApp] WebSocket ping timeout after 118248 ms.
+[W 2025-04-05 17:00:26.049 ServerApp] WebSocket ping timeout after 118620 ms.
+[I 2025-04-05 17:00:29.436 ServerApp] Starting buffering for f6dc9337-8d8c-4039-b33d-e679bec558c1:fcdcf5ed-8db5-4b5d-91f0-77b3660d478d
+[I 2025-04-05 17:00:29.833 ServerApp] Starting buffering for 2f7cb9ba-db6d-459d-b926-0aafa0035c35:7d36fa79-4dbd-48b5-bc52-d81139a3562f
+[I 2025-04-05 17:00:30.680 ServerApp] Starting buffering for 9fd2fed4-4cfd-4573-a833-e2d3fe759457:3cc2814a-0e31-49ca-83d1-208942cea88d
+[I 2025-04-05 17:00:31.050 ServerApp] Starting buffering for 6744d321-44dd-4f58-bc23-4b5861d5d55a:2527863c-e38f-4637-a843-a3266d4de2da
+[I 2025-04-05 17:00:43.207 ServerApp] Connecting to kernel 9fd2fed4-4cfd-4573-a833-e2d3fe759457.
+[I 2025-04-05 17:00:43.207 ServerApp] Restoring connection for 9fd2fed4-4cfd-4573-a833-e2d3fe759457:3cc2814a-0e31-49ca-83d1-208942cea88d
+[I 2025-04-05 17:00:43.482 ServerApp] Connecting to kernel f6dc9337-8d8c-4039-b33d-e679bec558c1.
+[I 2025-04-05 17:00:43.482 ServerApp] Restoring connection for f6dc9337-8d8c-4039-b33d-e679bec558c1:fcdcf5ed-8db5-4b5d-91f0-77b3660d478d
+[I 2025-04-05 17:00:45.225 ServerApp] Connecting to kernel 2f7cb9ba-db6d-459d-b926-0aafa0035c35.
+[I 2025-04-05 17:00:45.226 ServerApp] Restoring connection for 2f7cb9ba-db6d-459d-b926-0aafa0035c35:7d36fa79-4dbd-48b5-bc52-d81139a3562f
+[I 2025-04-05 17:00:46.224 ServerApp] Connecting to kernel 6744d321-44dd-4f58-bc23-4b5861d5d55a.
+[I 2025-04-05 17:00:46.224 ServerApp] Restoring connection for 6744d321-44dd-4f58-bc23-4b5861d5d55a:2527863c-e38f-4637-a843-a3266d4de2da
+Exception ignored in thread started by: <object repr() failed>
+MemoryError: 
+slurmstepd-ai18: error: *** JOB 2287414 ON ai18 CANCELLED AT 2025-04-06T21:26:41 DUE TO TIME LIMIT ***
+[C 2025-04-06 21:26:41.054 ServerApp] received signal 15, stopping
+[C 2025-05-25 10:49:27.648 ServerApp] received signal 15, stopping

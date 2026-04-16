@@ -1,0 +1,1278 @@
+=======================
+Loading Anaconda Module...
+no change     /opt/ohpc/pub/compiler/conda/latest/condabin/conda
+no change     /opt/ohpc/pub/compiler/conda/latest/bin/conda
+no change     /opt/ohpc/pub/compiler/conda/latest/bin/conda-env
+no change     /opt/ohpc/pub/compiler/conda/latest/bin/activate
+no change     /opt/ohpc/pub/compiler/conda/latest/bin/deactivate
+no change     /opt/ohpc/pub/compiler/conda/latest/etc/profile.d/conda.sh
+no change     /opt/ohpc/pub/compiler/conda/latest/etc/fish/conf.d/conda.fish
+no change     /opt/ohpc/pub/compiler/conda/latest/shell/condabin/Conda.psm1
+no change     /opt/ohpc/pub/compiler/conda/latest/shell/condabin/conda-hook.ps1
+no change     /opt/ohpc/pub/compiler/conda/latest/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /opt/ohpc/pub/compiler/conda/latest/etc/profile.d/conda.csh
+no change     /home/asaydam21/.bashrc
+No action taken.
+=======================
+
+============================== ENVIRONMENT VARIABLES ===============================
+HYDRA_LAUNCHER_EXTRA_ARGS=--external-launcher
+CONDA_SHLVL=1
+LD_LIBRARY_PATH=/opt/ohpc/pub/compiler/conda/latest/lib
+LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+CONDA_EXE=/opt/ohpc/pub/compiler/conda/latest/bin/conda
+SLURM_NODEID=0
+SLURM_TASK_PID=1857486
+__LMOD_REF_COUNT_PATH=/opt/ohpc/pub/compiler/conda/latest/bin:1;/opt/ohpc/pub/compiler/tmux/3.3a/bin:1;/home/asaydam21/.conda/envs/py311/bin:1;/home/asaydam21/.local/bin:1;/home/asaydam21/bin:1;/opt/ohpc/pub/compiler/conda/latest/condabin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1
+_ModuleTable002_=IiwKbG9hZE9yZGVyID0gMSwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDAsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJ0bXV4LzMuM2EiLAp3ViA9ICIwMDAwMDAwMDMuMDAwMDAwMDAzLiphLip6ZmluYWwiLAp9LAp9LAptcGF0aEEgPSB7CiIvb3B0L29ocGMvcHViL21vZHVsZWZpbGVzIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXMiLAp9Cg==
+SSH_CONNECTION=172.20.146.200 54943 192.168.0.50 22
+INCLUDE=/opt/ohpc/pub/compiler/conda/latest/include
+SLURM_PRIO_PROCESS=0
+I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS=--external-launcher
+LANG=en_US.UTF-8
+SLURM_SUBMIT_DIR=/home/asaydam21
+HISTCONTROL=ignoredups
+OMPI_MCA_plm_slurm_args=--external-launcher
+HOSTNAME=ai19
+OLDPWD=/home/asaydam21/slurm-utilities/run-jupyter
+ENVIRONMENT=BATCH
+FPATH=/opt/ohpc/admin/lmod/lmod/init/ksh_funcs
+CONDA_PREFIX=/home/asaydam21/.conda/envs/py311
+SLURM_PROCID=0
+SLURM_JOB_GID=1810810000
+__LMOD_REF_COUNT_INCLUDE=/opt/ohpc/pub/compiler/conda/latest/include:1
+I_MPI_HYDRA_BOOTSTRAP=slurm
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/ohpc/pub/compiler/conda/latest/lib:1
+SLURMD_NODENAME=ai19
+SLURM_JOB_END_TIME=1742064857
+SLURM_TASKS_PER_NODE=1
+__LMOD_REF_COUNT_PYTHONPATH=/opt/ohpc/pub/compiler/conda/latest/lib:1
+PRTE_MCA_plm_slurm_args=--external-launcher
+_CE_M=
+which_declare=declare -f
+XDG_SESSION_ID=602
+SLURM_NNODES=1
+USER=asaydam21
+SLURM_JOB_START_TIME=1741805657
+SLURM_NTASKS_PER_NODE=1
+__LMOD_REF_COUNT_MODULEPATH=/opt/ohpc/pub/modulefiles:1
+PWD=/home/asaydam21
+SLURM_JOB_NODELIST=ai19
+HOME=/home/asaydam21
+SLURM_CLUSTER_NAME=valar
+CONDA_PYTHON_EXE=/opt/ohpc/pub/compiler/conda/latest/bin/python
+LMOD_COLORIZE=no
+SLURM_NODELIST=ai19
+SSH_CLIENT=172.20.146.200 54943 22
+LMOD_VERSION=8.7.53
+SLURM_NTASKS=1
+LMOD_SETTARG_CMD=:
+KRB5CCNAME=KCM:
+SLURM_JOB_CPUS_PER_NODE=1
+BASH_ENV=/opt/ohpc/admin/lmod/lmod/init/bash
+SLURM_TOPOLOGY_ADDR=ai19
+_CE_CONDA=
+SLURM_JOB_NAME=download-flowbench
+TMPDIR=/scratch/tmp
+SLURM_JOBID=2086265
+LIBPATH=/opt/ohpc/pub/compiler/conda/latest/lib
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0ge30sCm1UID0gewpjb25kYSA9IHsKZm4gPSAiL29wdC9vaHBjL3B1Yi9tb2R1bGVmaWxlcy9jb25kYS9sYXRlc3QiLApmdWxsTmFtZSA9ICJjb25kYS9sYXRlc3QiLApsb2FkT3JkZXIgPSAyLApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMCwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImNvbmRhL2xhdGVzdCIsCndWID0gIipsYXRlc3QuKnpmaW5hbCIsCn0sCnRtdXggPSB7CmZuID0gIi9vcHQvb2hwYy9wdWIvbW9kdWxlZmlsZXMvdG11eC8zLjNhIiwKZnVsbE5hbWUgPSAidG11eC8zLjNh
+SLURM_CONF=/etc/slurm/slurm.conf
+LOADEDMODULES=tmux/3.3a:conda/latest
+__LMOD_REF_COUNT_MANPATH=/opt/ohpc/pub/compiler/conda/latest/share/man:1
+LMOD_ROOT=/opt/ohpc/admin/lmod
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+CONDA_PROMPT_MODIFIER=(py311) 
+SSH_TTY=/dev/pts/28
+MAIL=/var/spool/mail/asaydam21
+SLURM_CPUS_ON_NODE=1
+SLURM_JOB_NUM_NODES=1
+SLURM_MEM_PER_NODE=4096
+TERM=xterm-256color
+SHELL=/bin/bash
+SLURM_JOB_UID=1111956
+_ModuleTable_Sz_=2
+SLURM_JOB_PARTITION=ai
+SLURM_JOB_USER=asaydam21
+SLURM_NPROCS=1
+SHLVL=3
+SLURM_SUBMIT_HOST=login01
+PYTHONPATH=/opt/ohpc/pub/compiler/conda/latest/lib
+__LMOD_REF_COUNT_LIBPATH=/opt/ohpc/pub/compiler/conda/latest/lib:1
+SLURM_JOB_ACCOUNT=ai
+MANPATH=/opt/ohpc/pub/compiler/conda/latest/share/man
+HYDRA_BOOTSTRAP=slurm
+LMOD_PREPEND_BLOCK=normal
+MODULEPATH=/opt/ohpc/pub/modulefiles
+SLURM_GTIDS=0
+LOGNAME=asaydam21
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1111956/bus
+XDG_RUNTIME_DIR=/run/user/1111956
+SLURM_RESTART_COUNT=1
+PATH=/opt/ohpc/pub/compiler/conda/latest/bin:/opt/ohpc/pub/compiler/tmux/3.3a/bin:/home/asaydam21/.conda/envs/py311/bin:/home/asaydam21/.local/bin:/home/asaydam21/bin:/opt/ohpc/pub/compiler/conda/latest/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+SLURM_JOB_ID=2086265
+_LMFILES_=/opt/ohpc/pub/modulefiles/tmux/3.3a:/opt/ohpc/pub/modulefiles/conda/latest
+DEBUGINFOD_URLS=https://debuginfod.centos.org/ 
+MODULESHOME=/opt/ohpc/admin/lmod/lmod
+CONDA_DEFAULT_ENV=py311
+LMOD_SETTARG_FULL_SUPPORT=no
+HISTSIZE=1000
+LMOD_PKG=/opt/ohpc/admin/lmod/lmod
+LMOD_CMD=/opt/ohpc/admin/lmod/lmod/libexec/lmod
+SLURM_LOCALID=0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_FULL_SETTARG_SUPPORT=no
+LMOD_DIR=/opt/ohpc/admin/lmod/lmod/libexec
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+_=/usr/bin/env
+====================================================================================
+
+
+
+
+====================================================================================
+
+ Here is the MobaXterm info:
+
+Forwarded port:same as remote port
+Remote server: ai19
+Remote port: 6239
+SSH server: 172.20.240.205
+SSH login: asaydam21
+SSH port: 22
+
+====================================================================================
+# MacOS or linux terminal command to create your ssh tunnel on your local machine:
+
+ssh -N -L 6239:ai19:6239 asaydam21@172.20.240.205
+====================================================================================
+
+Jupyter server information is below
+
+[I 2025-03-12 21:54:20.642 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-03-12 21:54:20.649 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-03-12 21:54:20.655 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-03-12 21:54:21.355 ServerApp] notebook_shim | extension was successfully linked.
+[W 2025-03-12 21:54:21.404 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2025-03-12 21:54:21.405 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-03-12 21:54:21.431 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-03-12 21:54:21.432 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-03-12 21:54:21.438 LabApp] JupyterLab extension loaded from /home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyterlab
+[I 2025-03-12 21:54:21.438 LabApp] JupyterLab application directory is /home/asaydam21/.conda/envs/py311/share/jupyter/lab
+[I 2025-03-12 21:54:21.440 LabApp] Extension Manager is 'pypi'.
+[I 2025-03-12 21:54:21.519 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-03-12 21:54:21.520 ServerApp] Serving notebooks from local directory: /home/asaydam21
+[I 2025-03-12 21:54:21.520 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2025-03-12 21:54:21.520 ServerApp] http://localhost:6239/lab?token=2108eba70c33800a1142b9778a509dbfc5d10825475ae727
+[I 2025-03-12 21:54:21.520 ServerApp]     http://127.0.0.1:6239/lab?token=2108eba70c33800a1142b9778a509dbfc5d10825475ae727
+[I 2025-03-12 21:54:21.521 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-03-12 21:54:21.529 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/asaydam21/.local/share/jupyter/runtime/jpserver-1857615-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:6239/lab?token=2108eba70c33800a1142b9778a509dbfc5d10825475ae727
+        http://127.0.0.1:6239/lab?token=2108eba70c33800a1142b9778a509dbfc5d10825475ae727
+[I 2025-03-12 21:54:22.050 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-03-13 00:13:39.983 LabApp] Build is up to date
+[I 2025-03-13 00:13:40.430 ServerApp] Kernel started: b817fd24-03d6-4b9c-ba22-d1d418a28e06
+[I 2025-03-13 00:13:40.471 ServerApp] Kernel started: ea699ac3-4270-4289-8642-04f0e4a1632a
+[I 2025-03-13 00:13:42.808 ServerApp] Connecting to kernel ea699ac3-4270-4289-8642-04f0e4a1632a.
+[I 2025-03-13 00:13:42.998 ServerApp] Starting buffering for ea699ac3-4270-4289-8642-04f0e4a1632a:9f0e762e-18b7-4f13-96b1-308c4a115d75
+[I 2025-03-13 00:13:43.001 ServerApp] Connecting to kernel b817fd24-03d6-4b9c-ba22-d1d418a28e06.
+[I 2025-03-13 00:13:43.233 ServerApp] Connecting to kernel ea699ac3-4270-4289-8642-04f0e4a1632a.
+[I 2025-03-13 00:13:43.406 ServerApp] Connecting to kernel ea699ac3-4270-4289-8642-04f0e4a1632a.
+[I 2025-03-13 00:15:40.300 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 00:59:25.613 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 01:10:25.538 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 01:12:26.588 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 01:14:27.803 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 01:39:25.629 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 01:57:25.600 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 01:59:26.664 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 02:01:27.660 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 02:03:29.089 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 02:09:31.901 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 02:11:33.659 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 02:13:34.665 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 02:15:35.671 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 02:42:25.586 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[W 2025-03-13 02:58:58.727 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823938168 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 2.76ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:58:58.729 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py', via 404 Error
+[E 2025-03-13 02:58:58.729 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823938168 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823938168', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:58:58.950 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823938739 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.08ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:58:58.952 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py', via 404 Error
+[E 2025-03-13 02:58:58.952 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823938739 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823938739', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:58:59.272 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823938907 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.25ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:58:59.274 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py', via 404 Error
+[E 2025-03-13 02:58:59.275 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823938907 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823938907', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:58:59.459 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823939127 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 11.17ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:58:59.466 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py', via 404 Error
+[E 2025-03-13 02:58:59.466 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823939127 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823939127', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:58:59.551 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823939315 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.06ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:58:59.553 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py', via 404 Error
+[E 2025-03-13 02:58:59.553 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823939315 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823939315', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:58:59.629 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/contextlib.py?content=0&hash=0&1741823939405 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 11.83ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:58:59.631 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/contextlib.py', via 404 Error
+[E 2025-03-13 02:58:59.631 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/contextlib.py?content=0&hash=0&1741823939405 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/contextlib.py?content=0&hash=0&1741823939405', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/contextlib.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:58:59.752 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823939483 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 2.21ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:58:59.754 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py', via 404 Error
+[E 2025-03-13 02:58:59.754 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823939483 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py?content=0&hash=0&1741823939483', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/urllib3/response.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:58:59.813 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py?content=0&hash=0&1741823939607 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.38ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:58:59.815 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py', via 404 Error
+[E 2025-03-13 02:58:59.815 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py?content=0&hash=0&1741823939607 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py?content=0&hash=0&1741823939607', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:58:59.904 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py?content=0&hash=0&1741823939668 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.15ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:58:59.906 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py', via 404 Error
+[E 2025-03-13 02:58:59.906 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py?content=0&hash=0&1741823939668 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py?content=0&hash=0&1741823939668', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:00.058 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/contrib/concurrent.py?content=0&hash=0&1741823939759 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.43ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:00.059 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tqdm/contrib/concurrent.py', via 404 Error
+[E 2025-03-13 02:59:00.060 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/contrib/concurrent.py?content=0&hash=0&1741823939759 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/contrib/concurrent.py?content=0&hash=0&1741823939759', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/tqdm/contrib/concurrent.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:00.376 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/contrib/concurrent.py?content=0&hash=0&1741823939913 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.05ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:00.377 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tqdm/contrib/concurrent.py', via 404 Error
+[E 2025-03-13 02:59:00.378 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/contrib/concurrent.py?content=0&hash=0&1741823939913 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/contrib/concurrent.py?content=0&hash=0&1741823939913', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/tqdm/contrib/concurrent.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:00.439 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/notebook.py?content=0&hash=0&1741823940231 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.09ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:00.441 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tqdm/notebook.py', via 404 Error
+[E 2025-03-13 02:59:00.441 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/notebook.py?content=0&hash=0&1741823940231 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/notebook.py?content=0&hash=0&1741823940231', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/tqdm/notebook.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:00.521 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/std.py?content=0&hash=0&1741823940295 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 6.44ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:00.522 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tqdm/std.py', via 404 Error
+[E 2025-03-13 02:59:00.522 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/std.py?content=0&hash=0&1741823940295 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/tqdm/std.py?content=0&hash=0&1741823940295', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/tqdm/std.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:00.812 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823940380 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 2.57ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:00.814 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py', via 404 Error
+[E 2025-03-13 02:59:00.814 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823940380 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823940380', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:01.098 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823940666 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 10.89ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:01.099 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py', via 404 Error
+[E 2025-03-13 02:59:01.100 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823940666 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823940666', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:01.275 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823940952 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.13ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:01.277 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py', via 404 Error
+[E 2025-03-13 02:59:01.277 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823940952 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823940952', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:01.401 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823941132 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.09ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:01.403 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py', via 404 Error
+[E 2025-03-13 02:59:01.403 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823941132 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py?content=0&hash=0&1741823941132', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/concurrent/futures/_base.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:01.464 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/thread.py?content=0&hash=0&1741823941258 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.04ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:01.466 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/concurrent/futures/thread.py', via 404 Error
+[E 2025-03-13 02:59:01.466 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/thread.py?content=0&hash=0&1741823941258 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/concurrent/futures/thread.py?content=0&hash=0&1741823941258', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/concurrent/futures/thread.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:01.535 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py?content=0&hash=0&1741823941318 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.20ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:01.537 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py', via 404 Error
+[E 2025-03-13 02:59:01.537 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py?content=0&hash=0&1741823941318 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py?content=0&hash=0&1741823941318', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/_snapshot_download.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:01.604 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py?content=0&hash=0&1741823941389 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.20ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:01.606 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py', via 404 Error
+[E 2025-03-13 02:59:01.606 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py?content=0&hash=0&1741823941389 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py?content=0&hash=0&1741823941389', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:01.679 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py?content=0&hash=0&1741823941463 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.16ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:01.681 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py', via 404 Error
+[E 2025-03-13 02:59:01.681 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py?content=0&hash=0&1741823941463 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py?content=0&hash=0&1741823941463', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:01.945 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py?content=0&hash=0&1741823941534 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 2.20ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:01.947 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py', via 404 Error
+[E 2025-03-13 02:59:01.947 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py?content=0&hash=0&1741823941534 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py?content=0&hash=0&1741823941534', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:02.015 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py?content=0&hash=0&1741823941801 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.01ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:02.016 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py', via 404 Error
+[E 2025-03-13 02:59:02.017 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py?content=0&hash=0&1741823941801 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py?content=0&hash=0&1741823941801', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/huggingface_hub/file_download.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-03-13 02:59:02.247 ServerApp] 404 GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/requests/models.py?content=0&hash=0&1741823941869 (2aa0fdeb9b54408ba920bbb57f7dd0cc@192.168.0.51) 1.24ms referer=http://127.0.0.1:6239/lab
+[I 2025-03-13 02:59:02.248 ServerApp] Refusing to serve hidden file or directory '/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/requests/models.py', via 404 Error
+[E 2025-03-13 02:59:02.249 ServerApp] Uncaught exception GET /api/contents/.conda/envs/py311/lib/python3.11/site-packages/requests/models.py?content=0&hash=0&1741823941869 (192.168.0.51)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:6239', method='GET', uri='/api/contents/.conda/envs/py311/lib/python3.11/site-packages/requests/models.py?content=0&hash=0&1741823941869', version='HTTP/1.1', remote_ip='192.168.0.51')
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 827, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.conda/envs/py311/lib/python3.11/site-packages/requests/models.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/home/asaydam21/.conda/envs/py311/lib/python3.11/site-packages/tornado/web.py", line 914, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-03-13 03:00:25.551 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 03:04:26.774 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 03:06:27.720 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 03:07:24.045 ServerApp] Kernel interrupted: ea699ac3-4270-4289-8642-04f0e4a1632a
+[I 2025-03-13 03:08:12.143 ServerApp] Kernel restarted: ea699ac3-4270-4289-8642-04f0e4a1632a
+[I 2025-03-13 03:08:12.369 ServerApp] Starting buffering for ea699ac3-4270-4289-8642-04f0e4a1632a:24374f73-52b2-4714-bbba-9cfb390bb0e1
+[I 2025-03-13 03:08:12.518 ServerApp] Connecting to kernel ea699ac3-4270-4289-8642-04f0e4a1632a.
+[I 2025-03-13 03:08:12.519 ServerApp] Restoring connection for ea699ac3-4270-4289-8642-04f0e4a1632a:24374f73-52b2-4714-bbba-9cfb390bb0e1
+[I 2025-03-13 03:08:28.193 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 03:10:28.724 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 03:23:25.602 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 03:34:25.643 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 03:40:27.797 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 03:46:29.718 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 03:59:25.569 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:07:29.643 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:09:30.711 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:13:32.621 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:15:33.598 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:17:34.673 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:34:25.592 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:40:26.869 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:42:27.596 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:44:28.535 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:46:29.522 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 04:48:30.748 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 05:07:25.775 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[W 2025-03-13 05:10:42.519 ServerApp] WebSocket ping timeout after 119944 ms.
+[W 2025-03-13 05:10:42.698 ServerApp] 
+[W 2025-03-13 05:10:42.699 ServerApp] 
+[W 2025-03-13 05:10:43.002 ServerApp] WebSocket ping timeout after 119905 ms.
+[W 2025-03-13 05:10:43.670 ServerApp] 
+[W 2025-03-13 05:10:43.671 ServerApp] 
+[W 2025-03-13 05:10:43.671 ServerApp] 
+[W 2025-03-13 05:10:43.680 ServerApp] 
+[W 2025-03-13 05:10:43.680 ServerApp] 
+[W 2025-03-13 05:10:43.681 ServerApp] 
+[W 2025-03-13 05:10:44.013 ServerApp] 
+[W 2025-03-13 05:10:44.014 ServerApp] 
+[W 2025-03-13 05:10:44.152 ServerApp] 
+[W 2025-03-13 05:10:44.153 ServerApp] 
+[W 2025-03-13 05:10:44.154 ServerApp] 
+[W 2025-03-13 05:10:46.759 ServerApp] 
+[W 2025-03-13 05:10:46.771 ServerApp] 
+[W 2025-03-13 05:10:46.772 ServerApp] 
+[I 2025-03-13 05:10:47.522 ServerApp] Starting buffering for ea699ac3-4270-4289-8642-04f0e4a1632a:24374f73-52b2-4714-bbba-9cfb390bb0e1
+[I 2025-03-13 05:10:48.004 ServerApp] Starting buffering for b817fd24-03d6-4b9c-ba22-d1d418a28e06:73e9df44-1282-4949-b5b7-e3046b96e9e8
+[I 2025-03-13 11:07:17.362 ServerApp] Connecting to kernel ea699ac3-4270-4289-8642-04f0e4a1632a.
+[I 2025-03-13 11:07:17.363 ServerApp] Restoring connection for ea699ac3-4270-4289-8642-04f0e4a1632a:24374f73-52b2-4714-bbba-9cfb390bb0e1
+[I 2025-03-13 11:07:17.364 ServerApp] Replaying 38995 buffered messages
+[W 2025-03-13 11:07:17.505 ServerApp] IOPub message rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_msg_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_msg_rate_limit=1000.0 (msgs/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[I 2025-03-13 11:07:18.114 ServerApp] Connecting to kernel b817fd24-03d6-4b9c-ba22-d1d418a28e06.
+[I 2025-03-13 11:07:18.115 ServerApp] Restoring connection for b817fd24-03d6-4b9c-ba22-d1d418a28e06:73e9df44-1282-4949-b5b7-e3046b96e9e8
+[W 2025-03-13 11:07:22.978 ServerApp] iopub messages resumed
+[I 2025-03-13 11:07:25.500 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 11:15:28.472 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 11:28:25.538 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 11:30:26.578 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 11:38:30.734 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 11:42:32.516 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 11:44:33.567 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 11:46:34.586 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 11:57:25.536 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 12:05:29.568 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 12:09:31.492 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[I 2025-03-13 12:13:33.546 ServerApp] Saving file at /datasets/download-dataset-flowbench.ipynb
+[W 2025-03-13 12:15:47.365 ServerApp] WebSocket ping timeout after 119902 ms.
+[W 2025-03-13 12:15:47.771 ServerApp] 
+[W 2025-03-13 12:15:47.772 ServerApp] 
+[W 2025-03-13 12:15:47.773 ServerApp] 
+[W 2025-03-13 12:15:47.774 ServerApp] 
+[W 2025-03-13 12:15:47.774 ServerApp] 
+[W 2025-03-13 12:15:47.775 ServerApp] 
+[W 2025-03-13 12:15:47.775 ServerApp] 
+[W 2025-03-13 12:15:47.776 ServerApp] 
+[W 2025-03-13 12:15:47.776 ServerApp] 
+[W 2025-03-13 12:15:47.777 ServerApp] 
+[W 2025-03-13 12:15:47.778 ServerApp] 
+[W 2025-03-13 12:15:47.778 ServerApp] 
+[W 2025-03-13 12:15:47.778 ServerApp] 
+[W 2025-03-13 12:15:47.779 ServerApp] 
+[W 2025-03-13 12:15:47.779 ServerApp] 
+[W 2025-03-13 12:15:47.796 ServerApp] 
+[W 2025-03-13 12:15:47.797 ServerApp] 
+[W 2025-03-13 12:15:47.798 ServerApp] 
+[W 2025-03-13 12:15:47.799 ServerApp] 
+[W 2025-03-13 12:15:47.799 ServerApp] 
+[W 2025-03-13 12:15:47.800 ServerApp] 
+[W 2025-03-13 12:15:47.801 ServerApp] 
+[W 2025-03-13 12:15:47.801 ServerApp] 
+[W 2025-03-13 12:15:47.802 ServerApp] 
+[W 2025-03-13 12:15:47.802 ServerApp] 
+[W 2025-03-13 12:15:47.803 ServerApp] 
+[W 2025-03-13 12:15:47.803 ServerApp] 
+[W 2025-03-13 12:15:47.804 ServerApp] 
+[W 2025-03-13 12:15:47.804 ServerApp] 
+[W 2025-03-13 12:15:47.805 ServerApp] 
+[W 2025-03-13 12:15:47.865 ServerApp] 
+[W 2025-03-13 12:15:47.866 ServerApp] 
+[W 2025-03-13 12:15:47.867 ServerApp] 
+[W 2025-03-13 12:15:47.868 ServerApp] 
+[W 2025-03-13 12:15:47.868 ServerApp] 
+[W 2025-03-13 12:15:47.869 ServerApp] 
+[W 2025-03-13 12:15:47.870 ServerApp] 
+[W 2025-03-13 12:15:47.870 ServerApp] 
+[W 2025-03-13 12:15:47.871 ServerApp] 
+[W 2025-03-13 12:15:47.871 ServerApp] 
+[W 2025-03-13 12:15:47.872 ServerApp] 
+[W 2025-03-13 12:15:47.872 ServerApp] 
+[W 2025-03-13 12:15:47.873 ServerApp] 
+[W 2025-03-13 12:15:47.874 ServerApp] 
+[W 2025-03-13 12:15:47.874 ServerApp] 
+[W 2025-03-13 12:15:47.897 ServerApp] 
+[W 2025-03-13 12:15:47.898 ServerApp] 
+[W 2025-03-13 12:15:47.899 ServerApp] 
+[W 2025-03-13 12:15:47.899 ServerApp] 
+[W 2025-03-13 12:15:47.900 ServerApp] 
+[W 2025-03-13 12:15:47.900 ServerApp] 
+[W 2025-03-13 12:15:47.901 ServerApp] 
+[W 2025-03-13 12:15:47.901 ServerApp] 
+[W 2025-03-13 12:15:47.902 ServerApp] 
+[W 2025-03-13 12:15:47.902 ServerApp] 
+[W 2025-03-13 12:15:47.903 ServerApp] 
+[W 2025-03-13 12:15:47.903 ServerApp] 
+[W 2025-03-13 12:15:47.904 ServerApp] 
+[W 2025-03-13 12:15:47.904 ServerApp] 
+[W 2025-03-13 12:15:47.905 ServerApp] 
+[W 2025-03-13 12:15:48.028 ServerApp] 
+[W 2025-03-13 12:15:48.029 ServerApp] 
+[W 2025-03-13 12:15:48.029 ServerApp] 
+[W 2025-03-13 12:15:48.030 ServerApp] 
+[W 2025-03-13 12:15:48.030 ServerApp] 
+[W 2025-03-13 12:15:48.031 ServerApp] 
+[W 2025-03-13 12:15:48.031 ServerApp] 
+[W 2025-03-13 12:15:48.032 ServerApp] 
+[W 2025-03-13 12:15:48.032 ServerApp] 
+[W 2025-03-13 12:15:48.033 ServerApp] 
+[W 2025-03-13 12:15:48.033 ServerApp] 
+[W 2025-03-13 12:15:48.034 ServerApp] 
+[W 2025-03-13 12:15:48.034 ServerApp] 
+[W 2025-03-13 12:15:48.034 ServerApp] 
+[W 2025-03-13 12:15:48.035 ServerApp] 
+[W 2025-03-13 12:15:48.115 ServerApp] WebSocket ping timeout after 119918 ms.
+[I 2025-03-13 12:15:52.367 ServerApp] Starting buffering for ea699ac3-4270-4289-8642-04f0e4a1632a:24374f73-52b2-4714-bbba-9cfb390bb0e1
+[I 2025-03-13 12:15:53.117 ServerApp] Starting buffering for b817fd24-03d6-4b9c-ba22-d1d418a28e06:73e9df44-1282-4949-b5b7-e3046b96e9e8
+slurmstepd-ai19: error: *** JOB 2086265 ON ai19 CANCELLED AT 2025-03-15T21:54:24 DUE TO TIME LIMIT ***
+[C 2025-03-15 21:54:24.063 ServerApp] received signal 15, stopping
+[I 2025-03-15 21:54:24.068 ServerApp] Shutting down 4 extensions
+[I 2025-03-15 21:54:24.069 ServerApp] Shutting down 2 kernels
+[I 2025-03-15 21:54:24.070 ServerApp] Kernel shutdown: b817fd24-03d6-4b9c-ba22-d1d418a28e06
+[I 2025-03-15 21:54:24.071 ServerApp] Discarding 127448 buffered messages for ea699ac3-4270-4289-8642-04f0e4a1632a:24374f73-52b2-4714-bbba-9cfb390bb0e1
+[I 2025-03-15 21:54:24.117 ServerApp] Kernel shutdown: ea699ac3-4270-4289-8642-04f0e4a1632a

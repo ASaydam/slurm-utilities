@@ -1,5 +1,8 @@
 #!/bin/bash
 
+module load conda3
+conda activate py311
+
 # Get parent directory and create logs directoy if not exist
 scriptDir=$(dirname -- "$(readlink -f -- "$BASH_SOURCE")")
 mkdir -p $scriptDir/logs
@@ -51,7 +54,7 @@ if [[ $use_gpu == "yes" ]]; then
       gpu_constraint="#SBATCH --constraint=tesla_k80"
       ;;
     mid)
-      gpu_constraint="#SBATCH --constraint=tesla_t4"
+      gpu_constraint="#SBATCH --constraint=ampere_a40"
       ;;
     high)
       gpu_constraint="#SBATCH --constraint=tesla_v100"
